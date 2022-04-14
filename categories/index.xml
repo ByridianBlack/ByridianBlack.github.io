@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on MalScope</title>
-    <link>https://malscope.github.io/categories/</link>
+    <link>https://ByridianBlack.github.io/categories/</link>
     <description>Recent content in Categories on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>pco2001w@gmail.com (ByridianBlack)</managingEditor>
     <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
     
-	<atom:link href="https://malscope.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ByridianBlack.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

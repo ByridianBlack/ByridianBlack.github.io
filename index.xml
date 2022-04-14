@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MalScope</title>
-    <link>https://malscope.github.io/</link>
+    <link>https://ByridianBlack.github.io/</link>
     <description>Recent content on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,115 +10,115 @@
     <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
     <lastBuildDate>Wed, 16 Feb 2022 10:22:10 +0700</lastBuildDate>
     
-	<atom:link href="https://malscope.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ByridianBlack.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Darkside Malware</title>
-      <link>https://malscope.github.io/post/darkside/</link>
+      <link>https://ByridianBlack.github.io/post/darkside/</link>
       <pubDate>Wed, 16 Feb 2022 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.github.io/post/darkside/</guid>
+      <guid>https://ByridianBlack.github.io/post/darkside/</guid>
       <description>Darkside is a ransomware notorious for attacking high profile industrial control systems and facilities.</description>
     </item>
     
     <item>
       <title>Discord Troll Malware</title>
-      <link>https://malscope.github.io/post/discord/</link>
+      <link>https://ByridianBlack.github.io/post/discord/</link>
       <pubDate>Sun, 23 Jan 2022 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.github.io/post/discord/</guid>
+      <guid>https://ByridianBlack.github.io/post/discord/</guid>
       <description>Discord for the past few years has been known to be a hub for spreading malware and while they have done much to crack down on this spread the problem is still prevalent.</description>
     </item>
     
     <item>
       <title>DiffuseGravity</title>
-      <link>https://malscope.github.io/post/diffusegravity/</link>
+      <link>https://ByridianBlack.github.io/post/diffusegravity/</link>
       <pubDate>Thu, 25 Nov 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.github.io/post/diffusegravity/</guid>
+      <guid>https://ByridianBlack.github.io/post/diffusegravity/</guid>
       <description>Introduction VB6 compiler can be treated as a packer because of its translation from what is known as P code into assembly code.</description>
     </item>
     
     <item>
       <title>Good Malware</title>
-      <link>https://malscope.github.io/post/good_malware/</link>
+      <link>https://ByridianBlack.github.io/post/good_malware/</link>
       <pubDate>Sat, 23 Oct 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.github.io/post/good_malware/</guid>
+      <guid>https://ByridianBlack.github.io/post/good_malware/</guid>
       <description>Good.exe Sha256: 90d3580e187b631a9150bbb4a640b84c6fa990437febdc42f687cc7b3ce1deac Md5 : b034e2a7cd76b757b7c62ce514b378b4 Sha1 : 27d15f36cb5e3338a19a7f6441ece58439f830f2
 Analysis Initially this piece of malware was UPX packed as shown in the following Figure</description>
     </item>
     
     <item>
       <title>Invicea Tunnel Malware Analysis</title>
-      <link>https://malscope.github.io/post/invicea-tunnel-analysis/</link>
+      <link>https://ByridianBlack.github.io/post/invicea-tunnel-analysis/</link>
       <pubDate>Wed, 20 Oct 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.github.io/post/invicea-tunnel-analysis/</guid>
+      <guid>https://ByridianBlack.github.io/post/invicea-tunnel-analysis/</guid>
       <description>Initial Analysis &amp;amp; Outside Research Not much is known about this malware or at least not much research has been done on it.</description>
     </item>
     
     <item>
       <title> VBS Dropper Script for Nanocore RAT. Fileless Properties. </title>
-      <link>https://malscope.github.io/post/nanocore-rat-dropper-fileless/</link>
+      <link>https://ByridianBlack.github.io/post/nanocore-rat-dropper-fileless/</link>
       <pubDate>Mon, 20 Sep 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.github.io/post/nanocore-rat-dropper-fileless/</guid>
+      <guid>https://ByridianBlack.github.io/post/nanocore-rat-dropper-fileless/</guid>
       <description>Introduction This piece of malware had some fileless malware properties but because it copied itself to disk it cannot be categorized as a fileless malware.</description>
     </item>
     
     <item>
       <title>Poweliks Malware Analysis</title>
-      <link>https://malscope.github.io/post/poweliks-malware/</link>
+      <link>https://ByridianBlack.github.io/post/poweliks-malware/</link>
       <pubDate>Wed, 02 Jun 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.github.io/post/poweliks-malware/</guid>
+      <guid>https://ByridianBlack.github.io/post/poweliks-malware/</guid>
       <description>Introduction As of recent I have been interested in fileless malware and the different approaches authors have when executing them.</description>
     </item>
     
     <item>
       <title>VBS APT34 Dropper Analysis</title>
-      <link>https://malscope.github.io/post/vbs-apt34dropper-analysis/</link>
+      <link>https://ByridianBlack.github.io/post/vbs-apt34dropper-analysis/</link>
       <pubDate>Sat, 22 May 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.github.io/post/vbs-apt34dropper-analysis/</guid>
+      <guid>https://ByridianBlack.github.io/post/vbs-apt34dropper-analysis/</guid>
       <description>Introduction VBS scripts are malicious codes that can contain PowerShell commands which can have serious damage on the victim machine.</description>
     </item>
     
     <item>
       <title>Win32/InfoStealer Dexter Malware</title>
-      <link>https://malscope.github.io/post/info-stealer-ma/</link>
+      <link>https://ByridianBlack.github.io/post/info-stealer-ma/</link>
       <pubDate>Sat, 22 May 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.github.io/post/info-stealer-ma/</guid>
+      <guid>https://ByridianBlack.github.io/post/info-stealer-ma/</guid>
       <description>Introduction Win32/InfoStealer.Dexter is part of a family of malware with the purpose of stealing information such as credit card numbers, passwords or various techniques.</description>
     </item>
     
     <item>
       <title>Contact 📨️</title>
-      <link>https://malscope.github.io/contact/</link>
+      <link>https://ByridianBlack.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.github.io/contact/</guid>
+      <guid>https://ByridianBlack.github.io/contact/</guid>
       <description>Contact me:</description>
     </item>
     
     <item>
       <title>Search 🔍</title>
-      <link>https://malscope.github.io/search/</link>
+      <link>https://ByridianBlack.github.io/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.github.io/search/</guid>
+      <guid>https://ByridianBlack.github.io/search/</guid>
       <description>.gsc-control-cse, .gsc-result{ border: none!important; background-color: transparent!important; } .gsc-result-info, .gsc-orderby-label{ color: var(--disabled-text-color)!</description>
     </item>
     
     <item>
       <title>Who am I?</title>
-      <link>https://malscope.github.io/about/</link>
+      <link>https://ByridianBlack.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.github.io/about/</guid>
+      <guid>https://ByridianBlack.github.io/about/</guid>
       <description>Hello, I am a practicing malware analyst and reverse engineer, using this blog to showcase the malware samples I have analyzed.</description>
     </item>
     

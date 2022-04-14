@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dropper on MalScope</title>
-    <link>https://malscope.github.io/tags/dropper/</link>
+    <link>https://ByridianBlack.github.io/tags/dropper/</link>
     <description>Recent content in dropper on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,24 +10,24 @@
     <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
     <lastBuildDate>Mon, 20 Sep 2021 10:22:10 +0700</lastBuildDate>
     
-	<atom:link href="https://malscope.github.io/tags/dropper/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ByridianBlack.github.io/tags/dropper/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> VBS Dropper Script for Nanocore RAT. Fileless Properties. </title>
-      <link>https://malscope.github.io/post/nanocore-rat-dropper-fileless/</link>
+      <link>https://ByridianBlack.github.io/post/nanocore-rat-dropper-fileless/</link>
       <pubDate>Mon, 20 Sep 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.github.io/post/nanocore-rat-dropper-fileless/</guid>
+      <guid>https://ByridianBlack.github.io/post/nanocore-rat-dropper-fileless/</guid>
       <description>Introduction This piece of malware had some fileless malware properties but because it copied itself to disk it cannot be categorized as a fileless malware.</description>
     </item>
     
     <item>
       <title>VBS APT34 Dropper Analysis</title>
-      <link>https://malscope.github.io/post/vbs-apt34dropper-analysis/</link>
+      <link>https://ByridianBlack.github.io/post/vbs-apt34dropper-analysis/</link>
       <pubDate>Sat, 22 May 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.github.io/post/vbs-apt34dropper-analysis/</guid>
+      <guid>https://ByridianBlack.github.io/post/vbs-apt34dropper-analysis/</guid>
       <description>Introduction VBS scripts are malicious codes that can contain PowerShell commands which can have serious damage on the victim machine.</description>
     </item>
     
