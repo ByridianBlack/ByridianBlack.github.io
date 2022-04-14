@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gross on MalScope</title>
+    <link>https://malscope.github.io/tags/gross/</link>
+    <description>Recent content in gross on MalScope</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>pco2001w@gmail.com (ByridianBlack)</managingEditor>
+    <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
+    <lastBuildDate>Sun, 23 Jan 2022 10:22:10 +0700</lastBuildDate>
+    
+	<atom:link href="https://malscope.github.io/tags/gross/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Discord Troll Malware</title>
+      <link>https://malscope.github.io/post/discord/</link>
+      <pubDate>Sun, 23 Jan 2022 10:22:10 +0700</pubDate>
+      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <guid>https://malscope.github.io/post/discord/</guid>
+      <description>Discord for the past few years has been known to be a hub for spreading malware and while they have done much to crack down on this spread the problem is still prevalent.</description>
+    </item>
+    
+  </channel>
+</rss>

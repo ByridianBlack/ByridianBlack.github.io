@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#1da1f2">
+	<title> VBS Dropper Script for Nanocore RAT. Fileless Properties.  |  MalScope </title>
+	<meta name="description"
+		content="Introduction This piece of malware had some fileless malware properties but because it copied itself to disk it cannot be categorized as a fileless malware.">
+	<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/rat.png"/>
+
+<meta name="twitter:title" content=" VBS Dropper Script for Nanocore RAT. Fileless Properties. "/>
+<meta name="twitter:description" content="Introduction This piece of malware had some fileless malware properties but because it copied itself to disk it cannot be categorized as a fileless malware."/>
+
+	<meta name="twitter:site" content="@ByridianBlack" />
+	<meta itemprop="name" content=" VBS Dropper Script for Nanocore RAT. Fileless Properties. ">
+<meta itemprop="description" content="Introduction This piece of malware had some fileless malware properties but because it copied itself to disk it cannot be categorized as a fileless malware.">
+<meta itemprop="datePublished" content="2021-09-20T10:22:10&#43;07:00" />
+<meta itemprop="dateModified" content="2021-09-20T10:22:10&#43;07:00" />
+<meta itemprop="wordCount" content="950">
+<meta itemprop="image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/rat.png">
+
+
+
+<meta itemprop="keywords" content="dropper,fileless,nanocore RAT," />
+	<link rel="stylesheet" href="/css/bundle.min.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://malscope.github.io/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://malscope.github.io/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://malscope.github.io/icons/favicon-16x16.png">
+	<link rel="shortcut icon" href="https://malscope.github.io/icons/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="https://malscope.github.io/icons/favicon.ico" type="image/x-icon">
+	<meta name="msapplication-TileColor" content="#8dc153">
+	<link rel="manifest" href="https://malscope.github.io/manifest.json">
+	
+	<script type="application/ld+json">
+{
+	"@context":"http://schema.org",
+	"@type":"WebSite",
+	"name":"MalScope",
+	"url":"https:\/\/malscope.github.io",
+	"sameAs":[
+		"https://twitter.com/ByridianBlack",
+		"https://gitlab.com/",
+		"https://linkedin.com/in/philip-okoh-a16733232",
+		"https://t.me/"
+		],
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "https://wisnuwiry.space/search?q={search_term}",
+		"query-input": "required name=search_term"
+	}
+}
+</script>
+
+<script type='application/ld+json'>
+{
+	"@context": "http://www.schema.org",
+	"@type": "person",
+	"name": "ByridianBlack",
+	"jobTitle": "Cybersecurity Analyst",
+	"gender": "",
+	"url": "https:\/\/malscope.github.io",
+	"sameAs":[
+		"https://twitter.com/ByridianBlack",
+		"https://gitlab.com/",
+		"https://linkedin.com/in/philip-okoh-a16733232",
+		"https://t.me/"
+		],
+	"image": "https:\/\/malscope.github.io\/img\/avatar.jpg",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "Mayong, Jepara",
+		"addressLocality": "Jepara",
+		"addressRegion": "Jawa Tengah",
+		"addressCountry": "Indonesia"
+	},
+	"email": "pco2001w@gmail.com",
+	"birthDate": "2003-01-31",
+	"birthPlace": "Jepara",
+	"nationality": "Indonesian"
+}
+</script>
+
+<script type="application/ld+json">
+{
+	"@context":"http://schema.org",
+	"@type":"BlogPosting",
+	"mainEntityOfPage":{
+		"@type":"WebPage",
+		"@id":"https:\/\/malscope.github.iohttps:\/\/malscope.github.io\/post\/nanocore-rat-dropper-fileless\/"
+	},
+	"headline":" VBS Dropper Script for Nanocore RAT. Fileless Properties. ",
+	"datePublished":"2021-09-20T10",
+	"dateModified":"2021-09-20T10",
+	"description":"Introduction This piece of malware had some fileless malware properties but because it copied itself to disk it cannot be categorized as a fileless malware.",
+	"isFamilyFriendly": "true",
+	"image":  ["https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/rat.png"] ,
+	"wordCount" : "950",
+	"keywords": ["dropper","fileless","nanocore RAT"],
+	"genre": ["dropper","fileless","nanocore RAT"],
+	"accountablePerson": {
+		"@type": "Person",
+		"name": "ByridianBlack",
+		"url": ""
+	},
+	"author": {
+		"@type": "Person",
+		"name": "ByridianBlack",
+		"url": ""
+	},
+	"creator": {
+		"@type": "Person",
+		"name": "ByridianBlack",
+		"url": ""
+	},
+	"publisher":{
+		"@type":"Organization",
+		"name":"ByridianBlack", 
+		"logo": {
+			"@type": "imageObject",
+			"url": "https:\/\/malscope.github.io\/img\/avatar.jpg"
+		}
+	}
+}</script>
+
+
+	<meta content="" property="fb:admins">
+	<meta content="" property="fb:app_id">
+	<meta content="index,follow" name="googlebot">
+	<meta content="follow, all" name="Googlebot-Image">
+	<meta content="follow, all" name="Scooter">
+	<meta content="follow, all" name="msnbot">
+	<meta content="follow, all" name="alexabot">
+	<meta content="follow, all" name="Slurp">
+	<meta content="follow, all" name="ZyBorg">
+	<meta content="follow, all" name="Scooter">
+	<meta content="true" name="MSSmartTagsPreventParsing">
+	<meta content="ALL" name="SPIDERS">
+	<meta content="ALL" name="WEBCRAWLERS">
+	<meta
+		content="aeiwi, alexa, alltheWeb, altavista, aol netfind, anzwers, canada, directhit, euroseek, excite, overture, go, google, hotbot. infomak, kanoodle, lycos, mastersite, national directory, northern light, searchit, simplesearch, Websmostlinked, webtop, what-u-seek, aol, yahoo, webcrawler, infoseek, excite, magellan, looksmart, bing, cnet, googlebot"
+		name="search engines">
+	
+</head>
+
+<body class="">
+	<div class="site-container">
+		<header class="top" id="js-header">
+	<a class="logo" href="/" title="MalScope">
+    <img src="/img/placeholder.svg" alt="MalScope" class="lazyload" data-src="/img/avatar.jpg">
+</a>
+	
+	<nav class="navbar js-navbar">
+		<ul class="navbar__menu">
+			
+			
+				
+				<li>
+					<a href="/post" target="_self">
+						 Post
+					</a>
+				</li>
+				
+				
+				<li>
+					<a href="/about" target="_self">
+						 About
+					</a>
+				</li>
+				
+				
+				<li>
+					<a href="/contact" target="_self">
+						 Contact
+					</a>
+				</li>
+				
+				
+		</ul>
+		<button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span>
+		</button>
+	</nav>
+	<div class="search">
+	<a class="search__btn btn" aria-label="Search" href="/search" title="Search">
+		<svg viewBox="0 0 15 15">
+<path d="M14.81,13.14l-3-3h0a6.52,6.52,0,1,0-1.67,1.67h0l3,3a1.06,1.06,0,0,0,1.43-.24A1.06,1.06,0,0,0,14.81,13.14ZM6.5,11A4.5,4.5,0,1,1,11,6.5,4.51,4.51,0,0,1,6.5,11Z"/>
+</svg>
+
+	</a>
+	<button class="search__btn large" aria-label="Switch Theme" id="toggle-theme">
+		<svg viewBox="0 0 24 24">
+			<path id="icon-theme"></path>
+		</svg>
+	</button>
+</div>
+</header>
+
+		<main>
+			
+<div class="hero">
+	
+
+
+<figure class="hero__image hero__image--overlay">
+	<img class="hero__image-img lazyload" data-src="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/rat.png" src="/img/placeholder.svg" alt=" VBS Dropper Script for Nanocore RAT. Fileless Properties. "/>
+</figure>
+
+
+	<header class="hero__content" >
+	<div class="wrapper">
+		<h1 itemprop="name"  style="color: white;" >
+	
+		 VBS Dropper Script for Nanocore RAT. Fileless Properties. 
+	
+		</h1>
+	
+		</div>
+	</header>
+</div>
+
+	
+	<div class="progress-container" >
+    <div class="scroll-indicator-bar" id="indicator"></div>
+</div>
+
+	<div class="content  grid ">
+		
+<aside class="tableOfContentContainer" id="tableOfContentContainer">
+	<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#droppervbs">Dropper.vbs</a></li>
+        <li><a href="#vbyujgtxt">vbyujg.txt</a></li>
+        <li><a href="#xdswedtxt">xdswed.txt</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</aside>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        enableStickyToc();
+    });
+</script>
+
+		<div class="wrapper post__entry">
+			<div class='property outline'>
+    <p>📅️ Published: 
+        <time itemprop="datePublished" datetime="2021-09-20T10:22:10&#43;07:00">September 20, 2021</time>
+    </p>
+    <p>🔄 Updated: 
+        <time itemprop="dateModified" datetime="2021-09-20T10:22:10&#43;07:00">September 20, 2021</time>
+    </p>
+    <p>🕔 5 min read ∙ 950 words</p></div>
+			
+<nav class="breadcrumb block" aria-label="breadcrumb">
+	<ol class="breadcrumb__list">
+		
+		<li class="breadcrumb__item">
+			<a class="breadcrumbs__link" href="/">Home</a> &nbsp;
+		</li>
+		<li class="breadcrumb__item">
+			<a class="breadcrumbs__link" href="/post/">Post 📝</a> &nbsp;
+		</li>
+		<li class="breadcrumbs__item breadcrumb__item--active" aria-current="page"> VBS Dropper Script for Nanocore RAT. Fileless Properties. </li>
+	</ol>
+</nav>
+			<div class="single block">
+				<article class="entry" id="article">
+					<div class="entry__content">
+					<h1 id="introduction">Introduction</h1>
+<p>This piece of malware had some fileless malware properties but because it copied itself to disk it
+cannot be categorized as a fileless malware. Rather, this code should be seen as a dropper which
+executes a .Net assembly code in memory and reruns itself every time on boot up. There was no
+evidence that I could see that shows that the .Net executable was every written to disk. Using a
+combination of both PowerShell and the windows .Net compiler, this piece of malware was able
+to compile previously encoded information all in memory. The signature was picked up.
+Personally, this is the first time I have ever witnessed this, and it shows how much powerful
+malware can become when it has only started off with a few lines to begin with.</p>
+<h1 id="static-analysis">Static Analysis</h1>
+<p><figure class="post__image">
+	<img 
+	itemprop="image"
+	class="lazyload post__image" 
+    data-sizes="auto"
+    src="/img/placeholder.svg"
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/image-000.png'
+    alt='obfuscated_code'
+     title="obfuscated_code"
+ 	/>
+</figure>
+</p>
+<p>Starting off as a VBS script the code was heavily obfuscated. It used a series of split and conversions to transform the data from unreadable to usable data. The code being used here was syntax used for PowerShell, so without Invoking of any unwanted commands I used PowerShell to decode the script. The code was split into multiple parts. The first part was also obfuscated as well with replace functions.</p>
+<p><figure class="post__image">
+	<img 
+	itemprop="image"
+	class="lazyload post__image" 
+    data-sizes="auto"
+    src="/img/placeholder.svg"
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/image-001.png'
+    alt='obfuscated_code'
+     title="obfuscated_code"
+ 	/>
+</figure>
+</p>
+<p>This in turn gets transformed into the following:</p>
+<p><figure class="post__image">
+	<img 
+	itemprop="image"
+	class="lazyload post__image" 
+    data-sizes="auto"
+    src="/img/placeholder.svg"
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/image-002.png'
+    alt='obfuscated_code'
+     title="obfuscated_code"
+ 	/>
+</figure>
+</p>
+<p>Previously in Figure 1 the following URL was being used: <a href="https://transfer.sh/otxKHB/xdswed.txt">https://transfer.sh/otxKHB/xdswed.txt</a>.
+The site for now as of 9/15/2021 is still up and running. Because of this going to the site without the malware execution was the ideal option and the text file was nothing more than a VBS script that was executing PowerShell commands. Figure 3 shows that this segment acts as the dropper, downloading the data as a string and executing it with IEX.</p>
+<p>Within this file was another URL: <a href="https://transfer.sh/hLJAlo/vbyujg.txt">https://transfer.sh/hLJAlo/vbyujg.txt</a>.</p>
+<p>Analyzing the xdsweed.txt file the following was found:</p>
+<p><figure class="post__image">
+	<img 
+	itemprop="image"
+	class="lazyload post__image" 
+    data-sizes="auto"
+    src="/img/placeholder.svg"
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/image-003.png'
+    alt='obfuscated_code'
+     title="obfuscated_code"
+ 	/>
+</figure>
+</p>
+<p>Initially obfuscated, this portion of the code shows multiple things. One, a directory called Run is being created in the C:\Users\Public directory. There the registry is being targeted allowing for the newly created directory to be run during startup. This is location where the malware is copying itself into to be run at every startup.</p>
+<p>The second part of xdsweed.txt file is downloading the vbyujg.txt file from the URL. Vbyujg.txt is much more dangerous because of what it holds. The following is found:</p>
+<p><figure class="post__image">
+	<img 
+	itemprop="image"
+	class="lazyload post__image" 
+    data-sizes="auto"
+    src="/img/placeholder.svg"
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/image-004.png'
+    alt='obfuscated_code'
+     title="obfuscated_code"
+ 	/>
+</figure>
+</p>
+<p><figure class="post__image">
+	<img 
+	itemprop="image"
+	class="lazyload post__image" 
+    data-sizes="auto"
+    src="/img/placeholder.svg"
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/image-005.png'
+    alt='obfuscated_code'
+     title="obfuscated_code"
+ 	/>
+</figure>
+</p>
+<p>The HH variable is much bigger, but they are both hex encoded strings.</p>
+<p><figure class="post__image">
+	<img 
+	itemprop="image"
+	class="lazyload post__image" 
+    data-sizes="auto"
+    src="/img/placeholder.svg"
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/image-006.png'
+    alt='obfuscated_code'
+     title="obfuscated_code"
+ 	/>
+</figure>
+</p>
+<p>Which appears to be doing the decoding. Using Python I was able to decode this and the result came out to be a PE executable.</p>
+<p>This comes to no surprise as in a line more down in this dropped file I saw the following.</p>
+<p><figure class="post__image">
+	<img 
+	itemprop="image"
+	class="lazyload post__image" 
+    data-sizes="auto"
+    src="/img/placeholder.svg"
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/image-007.png'
+    alt='obfuscated_code'
+     title="obfuscated_code"
+ 	/>
+</figure>
+</p>
+<p>I believe that this this executable in in fact a .Net executable. A .Net executable is built on top of</p>
+<p>the PE format. From here I theorize the following.</p>
+<p>This executable is being written and then stored in the created directories previous found. There it is being started on every bootup.</p>
+<p>I am not yet sure what the executable does but I am certain that it is malicious. Most programs do that act in this way.</p>
+<p>From here not much can be learned from static analysis. I must run this executable and determine what is going on.</p>
+<p>These executables are being compiled with the aspnet_compiler.exe function as found in the same downloaded payload. They are then being injected directly into memory without being written to disk.</p>
+<p>From here dynamic analysis must be used to verify my findings. There shows no indications of the executable being written to disk but dynamic analysis must be used to confirm these findings.</p>
+<h1 id="dynamic-analysis">Dynamic Analysis</h1>
+<p>Running the application led to the following.</p>
+<p>A copy of the malware was written to the created directory as shown in Figure 4. An executable is also being loaded and run. Using the internet, it was determined that this is in fact the Nanocore RAT. A RAT that first showed up in 2013. Because of the nature of this dropper, getting hold of this sample which seems to only exist in memory is hard and more forensics research on the memory will be done. Further analysis will be done in the future.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>This malware appears to be a vector aimed at the distribution of the Nanocore RAT. Therefore, this can be categorized as both a dropper and spyware. One thing to note is this VBS script can easily be stored inside of a docx file. Also, what should also be noted is how dangerous that this dropper truly is.</p>
+<p>Based of the evidence that it has shown, it needed to create a new instance of itself from start up each time because the downloaded .Net executable that it is running only appears to exist in memory. No evidence shows the .Net executable being written to disk. This means that it is harder to detect through conventional means and tools.</p>
+<p>A possible method might be to take a snapshot of the RAM memory itself and then to look through that. Again, further analysis will be done.</p>
+<p>Lastly, what should be noted is how easily this code can be altered to download a different payload or even to download the same payload but with a different obfuscation algorithm. With, there could be very well different versions of this same malware doing the same thing. That along with the fact that they are using different trusted sources to do terrible things presents another issue. PowerShell, transfer.sh and aspnet_compiler are trusted entities. They cannot simply be blocked. Combating this piece of malware which has fileless malware properties presents a challenge.</p>
+<h3 id="droppervbs">Dropper.vbs</h3>
+<ul>
+<li>MD5: f0dba5477d792b0b5e16b79b0b603d7d</li>
+<li>SHA-1: 14bbacec9dcfae539f9a70c2de62f758bbe23767</li>
+<li>SHA-256: 4c6abb682817fd6093d2edaa821ef0c9c9368db4d6be6dce152a45a9782afa27</li>
+</ul>
+<h3 id="vbyujgtxt">vbyujg.txt</h3>
+<ul>
+<li>MD5: 957a3ff0a39263ae85017475f598b7da</li>
+<li>SHA-1: ef9ac4dcec16c29986a18ec3c0723fc3e20dd4e9</li>
+<li>SHA-256: 36321adffd7260915b142d9b38b95bad09e6d688adbf37bba17bb4792650b83d</li>
+</ul>
+<h3 id="xdswedtxt">xdswed.txt</h3>
+<ul>
+<li>MD5: e8f38a72c211f12114157777b7e98e51</li>
+<li>SHA-1: d8ea6e6c2d483692fd0f269d4148ac3470f98cb2</li>
+<li>SHA-256: 917f2e4c16ee5c0b96b9fd9b32dd569113745842c2fd0912422f3a7fb7922b53</li>
+</ul>
+
+					
+    <hr>
+    <p> <a href="post/Nanocore%20Rat%20Dropper%20Fileless.md">Edit on Github</a>.</p>
+    <hr>
+
+					
+
+					
+
+					</div>
+					
+					<footer class="entry__footer">
+						
+<div class="post__tag">
+			<a href="/tags/dropper/"># dropper</a>
+			<a href="/tags/fileless/"># fileless</a>
+			<a href="/tags/nanocore-rat/"># nanocore RAT</a>
+</div>
+						
+<div class="post__share">
+	<a class="js-share btn" title=" Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmalscope.github.io%2fpost%2fnanocore-rat-dropper-fileless%2f" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' Facebook', 'width=800,height=600,toolbar=0,status=0'); return false">
+		<svg class="share__icon" aria-label="Facebook" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M330 512V322h64l9-74h-73v-47c0-22 6-36 37-36h39V99c-7-1-30-3-57-3-57 0-95 34-95 98v54h-64v74h64v190z"/></svg>
+	</a>
+	<a class="js-share btn" title=" Twitter" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fmalscope.github.io%2fpost%2fnanocore-rat-dropper-fileless%2f&amp;text=%20VBS%20Dropper%20Script%20for%20Nanocore%20RAT.%20Fileless%20Properties.%20" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' Twitter', 'width=800,height=450,resizable=yes,toolbar=0,status=0'); return false">
+		<svg class="share__icon" aria-label="Twitter" viewBox="0 0 24.999 20.316"><path d="M25 2.405a10.253 10.253 0 0 1-2.947.808A5.144 5.144 0 0 0 24.308.376 10.27 10.27 0 0 1 21.05 1.62a5.134 5.134 0 0 0-8.74 4.68A14.56 14.56 0 0 1 1.74.94a5.134 5.134 0 0 0 1.587 6.846 5.108 5.108 0 0 1-2.323-.642v.064a5.132 5.132 0 0 0 4.114 5.03 5.142 5.142 0 0 1-2.316.088 5.134 5.134 0 0 0 4.79 3.562 10.29 10.29 0 0 1-6.37 2.2A10.44 10.44 0 0 1 0 18.012a14.586 14.586 0 0 0 22.454-12.29q0-.333-.015-.662A10.423 10.423 0 0 0 25 2.405z" /></svg>
+
+	</a>
+	<a class="js-share btn" title=" LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fmalscope.github.io%2fpost%2fnanocore-rat-dropper-fileless%2f&title=%20VBS%20Dropper%20Script%20for%20Nanocore%20RAT.%20Fileless%20Properties.%20" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' LinkedIn', 'width=640,height=480,toolbar=0,status=0'); return false">
+		<svg class="share__icon" aria-label="LinkedIn" role="img" viewBox="0 0 34.48 32"><path d="M29.632,0H2.362A2.336,2.336,0,0,0,0,2.306V29.691A2.337,2.337,0,0,0,2.362,32h27.27A2.342,2.342,0,0,0,32,29.691V2.306A2.34,2.34,0,0,0,29.632,0ZM9.491,27.268H4.744V12H9.491ZM7.119,9.909a2.752,2.752,0,1,1,2.75-2.753A2.753,2.753,0,0,1,7.119,9.909ZM27.268,27.268H22.525V19.842c0-1.772-.033-4.05-2.466-4.05-2.47,0-2.848,1.929-2.848,3.921v7.555H12.468V12h4.553v2.086h.063a4.986,4.986,0,0,1,4.491-2.467c4.806,0,5.694,3.163,5.694,7.275Z"/></svg>
+
+	</a>
+</div>
+						
+<div class="post__bio bio" >
+		<img class="lazyload bio__avatar" alt="ByridianBlack avatar" data-src="/img/avatar.jpg" height="90" width="90" src="/img/placeholder.svg">
+	<div class="bio__info">
+		<a class="bio__name invert" href="/about">
+			<p itemprop="author">ByridianBlack</p>
+		</a>
+		
+	</div>
+</div>
+
+					</footer>
+					
+				</article>
+				
+			</div>
+		</div>
+	</div>
+	
+
+
+
+<div class="post__related related">
+	<div class="wrapper">
+		<h2 class="h5 related__title">You should also read:</h2>
+		
+		<article class="related__item">
+			<div class="feed__meta">
+				
+	<time itemprop="datePublished" class="feed__date" datetime="2021-05-22T10:22:10&#43;07:00">May 22, 2021</time>
+			</div>
+			<h3><a class="invert" href="/post/vbs-apt34dropper-analysis/">VBS APT34 Dropper Analysis</a></h3></article>
+		
+	</div>
+</div>
+
+	
+<section class="post__comments">
+	<div class="wrapper">
+		<h5>💬 Comment: </h5>
+		<div id="comment"></div>
+		
+	</div>
+	<script>
+		var commentId = document.getElementById('comment');
+		var commentLoaded = false;
+		window.addEventListener('scroll', loadComment());
+
+		function loadComment(){
+			window.addEventListener('DOMContentLoaded', () => {
+				var top = commentId.offsetTop;
+				
+				if (!commentLoaded) {
+					commentLoaded = true;
+					(function () {
+						var d = document, s = d.createElement('script');
+						s.src = 'https://utteranc.es/client.js';
+						s.setAttribute('repo', '');
+						s.setAttribute('issue-term', 'title');
+						var currentTheme = localStorage.getItem("w-theme");
+						if(currentTheme == 'light'){
+							s.setAttribute('theme', 'github-light');
+						}else{
+							s.setAttribute('theme', 'photon-dark');
+						}
+						s.setAttribute('crossorigin', 'anonymous');
+						s.async = !0;
+						commentId.appendChild(s);
+					})();
+				}
+			});		
+		}
+	</script>
+</section>
+
+	
+
+		</main>
+		<footer class="footer">
+<div class="footer__social">
+		<a itemprop="sameAs" class="social__link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ByridianBlack">
+			<svg class="social__icon" aria-label="Twitter" viewBox="0 0 24.999 20.316"><path d="M25 2.405a10.253 10.253 0 0 1-2.947.808A5.144 5.144 0 0 0 24.308.376 10.27 10.27 0 0 1 21.05 1.62a5.134 5.134 0 0 0-8.74 4.68A14.56 14.56 0 0 1 1.74.94a5.134 5.134 0 0 0 1.587 6.846 5.108 5.108 0 0 1-2.323-.642v.064a5.132 5.132 0 0 0 4.114 5.03 5.142 5.142 0 0 1-2.316.088 5.134 5.134 0 0 0 4.79 3.562 10.29 10.29 0 0 1-6.37 2.2A10.44 10.44 0 0 1 0 18.012a14.586 14.586 0 0 0 22.454-12.29q0-.333-.015-.662A10.423 10.423 0 0 0 25 2.405z" /></svg>
+
+		</a>
+		<a itemprop="sameAs" class="social__link" target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/philip-okoh-a16733232">
+			<svg class="social__icon" aria-label="LinkedIn" role="img" viewBox="0 0 34.48 32"><path d="M29.632,0H2.362A2.336,2.336,0,0,0,0,2.306V29.691A2.337,2.337,0,0,0,2.362,32h27.27A2.342,2.342,0,0,0,32,29.691V2.306A2.34,2.34,0,0,0,29.632,0ZM9.491,27.268H4.744V12H9.491ZM7.119,9.909a2.752,2.752,0,1,1,2.75-2.753A2.753,2.753,0,0,1,7.119,9.909ZM27.268,27.268H22.525V19.842c0-1.772-.033-4.05-2.466-4.05-2.47,0-2.848,1.929-2.848,3.921v7.555H12.468V12h4.553v2.086h.063a4.986,4.986,0,0,1,4.491-2.467c4.806,0,5.694,3.163,5.694,7.275Z"/></svg>
+
+		</a>
+		<a itemprop="sameAs" class="social__link" target="_blank" rel="noopener noreferrer" href="https://github.com/ByridianBlack">
+			<svg class="social__icon" aria-label="Github" role="img" viewBox="0 0 25 25"><path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z" /></svg>
+
+		</a>
+</div>
+	
+</footer>
+
+
+	</div>
+	
+
+
+
+<script type="text/javascript" src="/js/bundle.min.js" defer></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js"></script>
+<script>(function (d, e) { d[e] = d[e].replace("no-js", "js"); })(document.documentElement, "className");</script>
+<script>
+    
+
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('/sw.js', { scope: '/' })
+            .then(function (registration) {
+                console.log('Service Worker Registered');
+            });
+
+        navigator.serviceWorker
+            .ready
+            .then(function (registration) {
+                console.log('Service Worker Ready');
+            });
+    }
+</script>
+
+</body>
+
+</html>
