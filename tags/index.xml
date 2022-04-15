@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on MalScope</title>
-    <link>https://ByridianBlack.github.io/tags/</link>
+    <link>https://malscope.com/tags/</link>
     <description>Recent content in Tags on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,204 +10,204 @@
     <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
     <lastBuildDate>Wed, 16 Feb 2022 10:22:10 +0700</lastBuildDate>
     
-	<atom:link href="https://ByridianBlack.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://malscope.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>dark</title>
-      <link>https://ByridianBlack.github.io/tags/dark/</link>
+      <link>https://malscope.com/tags/dark/</link>
       <pubDate>Wed, 16 Feb 2022 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/dark/</guid>
+      <guid>https://malscope.com/tags/dark/</guid>
       <description></description>
     </item>
     
     <item>
       <title>darkside</title>
-      <link>https://ByridianBlack.github.io/tags/darkside/</link>
+      <link>https://malscope.com/tags/darkside/</link>
       <pubDate>Wed, 16 Feb 2022 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/darkside/</guid>
+      <guid>https://malscope.com/tags/darkside/</guid>
       <description></description>
     </item>
     
     <item>
       <title>malware</title>
-      <link>https://ByridianBlack.github.io/tags/malware/</link>
+      <link>https://malscope.com/tags/malware/</link>
       <pubDate>Wed, 16 Feb 2022 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/malware/</guid>
+      <guid>https://malscope.com/tags/malware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>discord</title>
-      <link>https://ByridianBlack.github.io/tags/discord/</link>
+      <link>https://malscope.com/tags/discord/</link>
       <pubDate>Sun, 23 Jan 2022 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/discord/</guid>
+      <guid>https://malscope.com/tags/discord/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gross</title>
-      <link>https://ByridianBlack.github.io/tags/gross/</link>
+      <link>https://malscope.com/tags/gross/</link>
       <pubDate>Sun, 23 Jan 2022 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/gross/</guid>
+      <guid>https://malscope.com/tags/gross/</guid>
       <description></description>
     </item>
     
     <item>
       <title>troll</title>
-      <link>https://ByridianBlack.github.io/tags/troll/</link>
+      <link>https://malscope.com/tags/troll/</link>
       <pubDate>Sun, 23 Jan 2022 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/troll/</guid>
+      <guid>https://malscope.com/tags/troll/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dll</title>
-      <link>https://ByridianBlack.github.io/tags/dll/</link>
+      <link>https://malscope.com/tags/dll/</link>
       <pubDate>Thu, 25 Nov 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/dll/</guid>
+      <guid>https://malscope.com/tags/dll/</guid>
       <description></description>
     </item>
     
     <item>
       <title>keylogger</title>
-      <link>https://ByridianBlack.github.io/tags/keylogger/</link>
+      <link>https://malscope.com/tags/keylogger/</link>
       <pubDate>Thu, 25 Nov 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/keylogger/</guid>
+      <guid>https://malscope.com/tags/keylogger/</guid>
       <description></description>
     </item>
     
     <item>
       <title>resource</title>
-      <link>https://ByridianBlack.github.io/tags/resource/</link>
+      <link>https://malscope.com/tags/resource/</link>
       <pubDate>Thu, 25 Nov 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/resource/</guid>
+      <guid>https://malscope.com/tags/resource/</guid>
       <description></description>
     </item>
     
     <item>
       <title>defenses down</title>
-      <link>https://ByridianBlack.github.io/tags/defenses-down/</link>
+      <link>https://malscope.com/tags/defenses-down/</link>
       <pubDate>Sat, 23 Oct 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/defenses-down/</guid>
+      <guid>https://malscope.com/tags/defenses-down/</guid>
       <description></description>
     </item>
     
     <item>
       <title>evasive</title>
-      <link>https://ByridianBlack.github.io/tags/evasive/</link>
+      <link>https://malscope.com/tags/evasive/</link>
       <pubDate>Sat, 23 Oct 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/evasive/</guid>
+      <guid>https://malscope.com/tags/evasive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>good is bad</title>
-      <link>https://ByridianBlack.github.io/tags/good-is-bad/</link>
+      <link>https://malscope.com/tags/good-is-bad/</link>
       <pubDate>Sat, 23 Oct 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/good-is-bad/</guid>
+      <guid>https://malscope.com/tags/good-is-bad/</guid>
       <description></description>
     </item>
     
     <item>
       <title>autoruns</title>
-      <link>https://ByridianBlack.github.io/tags/autoruns/</link>
+      <link>https://malscope.com/tags/autoruns/</link>
       <pubDate>Wed, 20 Oct 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/autoruns/</guid>
+      <guid>https://malscope.com/tags/autoruns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>trojan</title>
-      <link>https://ByridianBlack.github.io/tags/trojan/</link>
+      <link>https://malscope.com/tags/trojan/</link>
       <pubDate>Wed, 20 Oct 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/trojan/</guid>
+      <guid>https://malscope.com/tags/trojan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tunnel</title>
-      <link>https://ByridianBlack.github.io/tags/tunnel/</link>
+      <link>https://malscope.com/tags/tunnel/</link>
       <pubDate>Wed, 20 Oct 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/tunnel/</guid>
+      <guid>https://malscope.com/tags/tunnel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dropper</title>
-      <link>https://ByridianBlack.github.io/tags/dropper/</link>
+      <link>https://malscope.com/tags/dropper/</link>
       <pubDate>Mon, 20 Sep 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/dropper/</guid>
+      <guid>https://malscope.com/tags/dropper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fileless</title>
-      <link>https://ByridianBlack.github.io/tags/fileless/</link>
+      <link>https://malscope.com/tags/fileless/</link>
       <pubDate>Mon, 20 Sep 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/fileless/</guid>
+      <guid>https://malscope.com/tags/fileless/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nanocore RAT</title>
-      <link>https://ByridianBlack.github.io/tags/nanocore-rat/</link>
+      <link>https://malscope.com/tags/nanocore-rat/</link>
       <pubDate>Mon, 20 Sep 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/nanocore-rat/</guid>
+      <guid>https://malscope.com/tags/nanocore-rat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>obfuscation</title>
-      <link>https://ByridianBlack.github.io/tags/obfuscation/</link>
+      <link>https://malscope.com/tags/obfuscation/</link>
       <pubDate>Wed, 02 Jun 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/obfuscation/</guid>
+      <guid>https://malscope.com/tags/obfuscation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>poweliks</title>
-      <link>https://ByridianBlack.github.io/tags/poweliks/</link>
+      <link>https://malscope.com/tags/poweliks/</link>
       <pubDate>Wed, 02 Jun 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/poweliks/</guid>
+      <guid>https://malscope.com/tags/poweliks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>APT</title>
-      <link>https://ByridianBlack.github.io/tags/apt/</link>
+      <link>https://malscope.com/tags/apt/</link>
       <pubDate>Sat, 22 May 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/apt/</guid>
+      <guid>https://malscope.com/tags/apt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VBS</title>
-      <link>https://ByridianBlack.github.io/tags/vbs/</link>
+      <link>https://malscope.com/tags/vbs/</link>
       <pubDate>Sat, 22 May 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/tags/vbs/</guid>
+      <guid>https://malscope.com/tags/vbs/</guid>
       <description></description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>APT on MalScope</title>
-    <link>https://ByridianBlack.github.io/tags/apt/</link>
+    <link>https://malscope.com/tags/apt/</link>
     <description>Recent content in APT on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,15 +10,15 @@
     <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
     <lastBuildDate>Sat, 22 May 2021 10:22:10 +0700</lastBuildDate>
     
-	<atom:link href="https://ByridianBlack.github.io/tags/apt/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://malscope.com/tags/apt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VBS APT34 Dropper Analysis</title>
-      <link>https://ByridianBlack.github.io/post/vbs-apt34dropper-analysis/</link>
+      <link>https://malscope.com/post/vbs-apt34dropper-analysis/</link>
       <pubDate>Sat, 22 May 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/post/vbs-apt34dropper-analysis/</guid>
+      <guid>https://malscope.com/post/vbs-apt34dropper-analysis/</guid>
       <description>Introduction VBS scripts are malicious codes that can contain PowerShell commands which can have serious damage on the victim machine.</description>
     </item>
     

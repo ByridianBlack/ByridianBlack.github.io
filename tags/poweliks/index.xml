@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>poweliks on MalScope</title>
-    <link>https://ByridianBlack.github.io/tags/poweliks/</link>
+    <link>https://malscope.com/tags/poweliks/</link>
     <description>Recent content in poweliks on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,15 +10,15 @@
     <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
     <lastBuildDate>Wed, 02 Jun 2021 10:22:10 +0700</lastBuildDate>
     
-	<atom:link href="https://ByridianBlack.github.io/tags/poweliks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://malscope.com/tags/poweliks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Poweliks Malware Analysis</title>
-      <link>https://ByridianBlack.github.io/post/poweliks-malware/</link>
+      <link>https://malscope.com/post/poweliks-malware/</link>
       <pubDate>Wed, 02 Jun 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/post/poweliks-malware/</guid>
+      <guid>https://malscope.com/post/poweliks-malware/</guid>
       <description>Introduction As of recent I have been interested in fileless malware and the different approaches authors have when executing them.</description>
     </item>
     

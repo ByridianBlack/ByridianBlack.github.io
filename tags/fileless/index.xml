@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>fileless on MalScope</title>
-    <link>https://ByridianBlack.github.io/tags/fileless/</link>
+    <link>https://malscope.com/tags/fileless/</link>
     <description>Recent content in fileless on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,15 +10,15 @@
     <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
     <lastBuildDate>Mon, 20 Sep 2021 10:22:10 +0700</lastBuildDate>
     
-	<atom:link href="https://ByridianBlack.github.io/tags/fileless/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://malscope.com/tags/fileless/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title> VBS Dropper Script for Nanocore RAT. Fileless Properties. </title>
-      <link>https://ByridianBlack.github.io/post/nanocore-rat-dropper-fileless/</link>
+      <link>https://malscope.com/post/nanocore-rat-dropper-fileless/</link>
       <pubDate>Mon, 20 Sep 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/post/nanocore-rat-dropper-fileless/</guid>
+      <guid>https://malscope.com/post/nanocore-rat-dropper-fileless/</guid>
       <description>Introduction This piece of malware had some fileless malware properties but because it copied itself to disk it cannot be categorized as a fileless malware.</description>
     </item>
     

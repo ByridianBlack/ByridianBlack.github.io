@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>trojan on MalScope</title>
-    <link>https://ByridianBlack.github.io/tags/trojan/</link>
+    <link>https://malscope.com/tags/trojan/</link>
     <description>Recent content in trojan on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,15 +10,15 @@
     <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
     <lastBuildDate>Wed, 20 Oct 2021 10:22:10 +0700</lastBuildDate>
     
-	<atom:link href="https://ByridianBlack.github.io/tags/trojan/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://malscope.com/tags/trojan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Invicea Tunnel Malware Analysis</title>
-      <link>https://ByridianBlack.github.io/post/invicea-tunnel-analysis/</link>
+      <link>https://malscope.com/post/invicea-tunnel-analysis/</link>
       <pubDate>Wed, 20 Oct 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/post/invicea-tunnel-analysis/</guid>
+      <guid>https://malscope.com/post/invicea-tunnel-analysis/</guid>
       <description>Initial Analysis &amp;amp; Outside Research Not much is known about this malware or at least not much research has been done on it.</description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dll on MalScope</title>
-    <link>https://ByridianBlack.github.io/tags/dll/</link>
+    <link>https://malscope.com/tags/dll/</link>
     <description>Recent content in dll on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,24 +10,24 @@
     <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
     <lastBuildDate>Thu, 25 Nov 2021 10:22:10 +0700</lastBuildDate>
     
-	<atom:link href="https://ByridianBlack.github.io/tags/dll/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://malscope.com/tags/dll/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DiffuseGravity</title>
-      <link>https://ByridianBlack.github.io/post/diffusegravity/</link>
+      <link>https://malscope.com/post/diffusegravity/</link>
       <pubDate>Thu, 25 Nov 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/post/diffusegravity/</guid>
+      <guid>https://malscope.com/post/diffusegravity/</guid>
       <description>Introduction VB6 compiler can be treated as a packer because of its translation from what is known as P code into assembly code.</description>
     </item>
     
     <item>
       <title>Win32/InfoStealer Dexter Malware</title>
-      <link>https://ByridianBlack.github.io/post/info-stealer-ma/</link>
+      <link>https://malscope.com/post/info-stealer-ma/</link>
       <pubDate>Sat, 22 May 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://ByridianBlack.github.io/post/info-stealer-ma/</guid>
+      <guid>https://malscope.com/post/info-stealer-ma/</guid>
       <description>Introduction Win32/InfoStealer.Dexter is part of a family of malware with the purpose of stealing information such as credit card numbers, passwords or various techniques.</description>
     </item>
     
