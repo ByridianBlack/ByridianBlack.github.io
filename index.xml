@@ -8,10 +8,19 @@
     <language>en</language>
     <managingEditor>pco2001w@gmail.com (ByridianBlack)</managingEditor>
     <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
-    <lastBuildDate>Wed, 16 Feb 2022 10:22:10 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 16 Apr 2022 10:22:10 +0700</lastBuildDate>
     
 	<atom:link href="https://malscope.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mevlbkxshp Powershell Script Malware Analysis</title>
+      <link>https://malscope.com/post/mevlbkxshp-powershell-script-malware-analysis/</link>
+      <pubDate>Sat, 16 Apr 2022 10:22:10 +0700</pubDate>
+      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <guid>https://malscope.com/post/mevlbkxshp-powershell-script-malware-analysis/</guid>
+      <description>Introduction Mevlbkxshp is a powershell script which will be categorized as a dropper.</description>
+    </item>
     
     <item>
       <title>Darkside Malware</title>
@@ -96,6 +105,15 @@ Analysis Initially this piece of malware was UPX packed as shown in the followin
     </item>
     
     <item>
+      <title></title>
+      <link>https://malscope.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <guid>https://malscope.com/about/</guid>
+      <description>Hello, I am a practicing malware analyst and reverse engineer, using this blog to showcase the malware samples I have analyzed.</description>
+    </item>
+    
+    <item>
       <title>Contact 📨️</title>
       <link>https://malscope.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -111,15 +129,6 @@ Analysis Initially this piece of malware was UPX packed as shown in the followin
       <author>pco2001w@gmail.com (ByridianBlack)</author>
       <guid>https://malscope.com/search/</guid>
       <description>.gsc-control-cse, .gsc-result{ border: none!important; background-color: transparent!important; } .gsc-result-info, .gsc-orderby-label{ color: var(--disabled-text-color)!</description>
-    </item>
-    
-    <item>
-      <title>Who am I?</title>
-      <link>https://malscope.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.com/about/</guid>
-      <description>Hello, I am a practicing malware analyst and reverse engineer, using this blog to showcase the malware samples I have analyzed.</description>
     </item>
     
   </channel>

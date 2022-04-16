@@ -8,10 +8,19 @@
     <language>en</language>
     <managingEditor>pco2001w@gmail.com (ByridianBlack)</managingEditor>
     <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
-    <lastBuildDate>Wed, 20 Oct 2021 10:22:10 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 16 Apr 2022 10:22:10 +0700</lastBuildDate>
     
 	<atom:link href="https://malscope.com/tags/autoruns/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mevlbkxshp Powershell Script Malware Analysis</title>
+      <link>https://malscope.com/post/mevlbkxshp-powershell-script-malware-analysis/</link>
+      <pubDate>Sat, 16 Apr 2022 10:22:10 +0700</pubDate>
+      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <guid>https://malscope.com/post/mevlbkxshp-powershell-script-malware-analysis/</guid>
+      <description>Introduction Mevlbkxshp is a powershell script which will be categorized as a dropper.</description>
+    </item>
     
     <item>
       <title>Invicea Tunnel Malware Analysis</title>
