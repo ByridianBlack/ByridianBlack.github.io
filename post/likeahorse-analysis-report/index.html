@@ -6,26 +6,26 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#1da1f2">
-	<title>Invicea Tunnel Malware Analysis |  MalScope </title>
+	<title>LIKEAHORSE Malware Report. Uncovering its Secrets |  MalScope </title>
 	<meta name="description"
-		content="Initial Analysis &amp; Outside Research Not much is known about this malware or at least not much research has been done on it.">
+		content="Introduction LIKEAHORSE is a ransomware which garnered news in the month of January but while it was looked at, I have found no real report on its features and abilities online.">
 	<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://www.durasteel.net/wp-content/uploads/sites/2/2020/02/metro_tunnel_header_3.jpg"/>
+<meta name="twitter:image" content="https://c8.alamy.com/comp/DNMN80/cartoon-illustration-of-funny-horse-DNMN80.jpg"/>
 
-<meta name="twitter:title" content="Invicea Tunnel Malware Analysis"/>
-<meta name="twitter:description" content="Initial Analysis &amp; Outside Research Not much is known about this malware or at least not much research has been done on it."/>
+<meta name="twitter:title" content="LIKEAHORSE Malware Report. Uncovering its Secrets"/>
+<meta name="twitter:description" content="Introduction LIKEAHORSE is a ransomware which garnered news in the month of January but while it was looked at, I have found no real report on its features and abilities online."/>
 
 	<meta name="twitter:site" content="@ByridianBlack" />
-	<meta itemprop="name" content="Invicea Tunnel Malware Analysis">
-<meta itemprop="description" content="Initial Analysis &amp; Outside Research Not much is known about this malware or at least not much research has been done on it.">
-<meta itemprop="datePublished" content="2021-10-20T10:22:10&#43;07:00" />
-<meta itemprop="dateModified" content="2021-10-20T10:22:10&#43;07:00" />
-<meta itemprop="wordCount" content="678">
-<meta itemprop="image" content="https://www.durasteel.net/wp-content/uploads/sites/2/2020/02/metro_tunnel_header_3.jpg">
+	<meta itemprop="name" content="LIKEAHORSE Malware Report. Uncovering its Secrets">
+<meta itemprop="description" content="Introduction LIKEAHORSE is a ransomware which garnered news in the month of January but while it was looked at, I have found no real report on its features and abilities online.">
+<meta itemprop="datePublished" content="2022-04-18T10:22:10&#43;07:00" />
+<meta itemprop="dateModified" content="2022-04-18T10:22:10&#43;07:00" />
+<meta itemprop="wordCount" content="746">
+<meta itemprop="image" content="https://c8.alamy.com/comp/DNMN80/cartoon-illustration-of-funny-horse-DNMN80.jpg">
 
 
 
-<meta itemprop="keywords" content="tunnel,autoruns,trojan," />
+<meta itemprop="keywords" content="powershell,fileless,obfuscation," />
 	<link rel="stylesheet" href="/css/bundle.min.css">
 	<link rel="apple-touch-icon" sizes="180x180" href="https://malscope.com/icons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="https://malscope.com/icons/favicon-32x32.png">
@@ -90,17 +90,17 @@
 	"@type":"BlogPosting",
 	"mainEntityOfPage":{
 		"@type":"WebPage",
-		"@id":"https:\/\/malscope.comhttps:\/\/malscope.com\/post\/invicea-tunnel-analysis\/"
+		"@id":"https:\/\/malscope.comhttps:\/\/malscope.com\/post\/likeahorse-analysis-report\/"
 	},
-	"headline":"Invicea Tunnel Malware Analysis",
-	"datePublished":"2021-10-20T10",
-	"dateModified":"2021-10-20T10",
-	"description":"Initial Analysis \x26amp; Outside Research Not much is known about this malware or at least not much research has been done on it.",
+	"headline":"LIKEAHORSE Malware Report. Uncovering its Secrets",
+	"datePublished":"2022-04-18T10",
+	"dateModified":"2022-04-18T10",
+	"description":"Introduction LIKEAHORSE is a ransomware which garnered news in the month of January but while it was looked at, I have found no real report on its features and abilities online.",
 	"isFamilyFriendly": "true",
-	"image":  ["https://www.durasteel.net/wp-content/uploads/sites/2/2020/02/metro_tunnel_header_3.jpg"] ,
-	"wordCount" : "678",
-	"keywords": ["tunnel","autoruns","trojan"],
-	"genre": ["tunnel","autoruns","trojan"],
+	"image":  ["https://c8.alamy.com/comp/DNMN80/cartoon-illustration-of-funny-horse-DNMN80.jpg"] ,
+	"wordCount" : "746",
+	"keywords": ["powershell","fileless","obfuscation"],
+	"genre": ["powershell","fileless","obfuscation"],
 	"accountablePerson": {
 		"@type": "Person",
 		"name": "ByridianBlack",
@@ -205,7 +205,7 @@
 
 
 <figure class="hero__image hero__image--overlay">
-	<img class="hero__image-img lazyload" data-src="https://www.durasteel.net/wp-content/uploads/sites/2/2020/02/metro_tunnel_header_3.jpg" src="/img/placeholder.svg" alt="Invicea Tunnel Malware Analysis"/>
+	<img class="hero__image-img lazyload" data-src="https://c8.alamy.com/comp/DNMN80/cartoon-illustration-of-funny-horse-DNMN80.jpg" src="/img/placeholder.svg" alt="LIKEAHORSE Malware Report. Uncovering its Secrets"/>
 </figure>
 
 
@@ -213,7 +213,7 @@
 	<div class="wrapper">
 		<h1 itemprop="name"  style="color: white;" >
 	
-		Invicea Tunnel Malware Analysis
+		LIKEAHORSE Malware Report. Uncovering its Secrets
 	
 		</h1>
 	
@@ -231,8 +231,14 @@
 <aside class="tableOfContentContainer" id="tableOfContentContainer">
 	<nav id="TableOfContents">
   <ul>
-    <li><a href="#initial-analysis--outside-research">Initial Analysis &amp; Outside Research</a></li>
-    <li><a href="#static-analysis">Static Analysis</a></li>
+    <li><a href="#malware-targets">Malware Targets</a></li>
+    <li><a href="#privilege-escalation-attempt">Privilege Escalation Attempt</a></li>
+    <li><a href="#defense-take-down">Defense Take Down</a></li>
+    <li><a href="#encryption-keys-mechanisms--fail-safe-feature">Encryption Keys Mechanisms &amp; Fail Safe Feature</a></li>
+    <li><a href="#ransomware-note">RANSOMWARE NOTE</a></li>
+    <li><a href="#network-capabilities">Network Capabilities</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#likeahorse-signatures">LIKEAHORSE SIGNATURES</a></li>
   </ul>
 </nav>
 </aside>
@@ -245,12 +251,12 @@
 		<div class="wrapper post__entry">
 			<div class='property outline'>
     <p>📅️ Published: 
-        <time itemprop="datePublished" datetime="2021-10-20T10:22:10&#43;07:00">October 20, 2021</time>
+        <time itemprop="datePublished" datetime="2022-04-18T10:22:10&#43;07:00">April 18, 2022</time>
     </p>
     <p>🔄 Updated: 
-        <time itemprop="dateModified" datetime="2021-10-20T10:22:10&#43;07:00">October 20, 2021</time>
+        <time itemprop="dateModified" datetime="2022-04-18T10:22:10&#43;07:00">April 18, 2022</time>
     </p>
-    <p>🕔 4 min read ∙ 678 words</p></div>
+    <p>🕔 4 min read ∙ 746 words</p></div>
 			
 <nav class="breadcrumb block" aria-label="breadcrumb">
 	<ol class="breadcrumb__list">
@@ -261,100 +267,127 @@
 		<li class="breadcrumb__item">
 			<a class="breadcrumbs__link" href="/post/">Post 📝</a> &nbsp;
 		</li>
-		<li class="breadcrumbs__item breadcrumb__item--active" aria-current="page">Invicea Tunnel Malware Analysis</li>
+		<li class="breadcrumbs__item breadcrumb__item--active" aria-current="page">LIKEAHORSE Malware Report. Uncovering its Secrets</li>
 	</ol>
 </nav>
 			<div class="single block">
 				<article class="entry" id="article">
 					<div class="entry__content">
-					<h2 id="initial-analysis--outside-research">Initial Analysis &amp; Outside Research</h2>
-<p>Not much is known about this malware or at least not much research has been done on it. Looking it up online did little to help be analyzed further and when I started to analysis it as well I could understand why. This malware for one is a GUI so automated running of it can’t allow for complete knowledge of its functionality. Also, it appears
-this malware needs specific criteria to even run properly or at all. These criteria I was not able to
-fully check but I was able to determine that it is what the malware needs.</p>
-<p>This might have been malware which attacked the DNC but it is also part of a family of malware
-and this was not clear.</p>
-<h2 id="static-analysis">Static Analysis</h2>
-<p>Initially, like always I check the executable for its type and its data directories and settings. This
-was a 32 bit PE stripped executable. It had a resource section that wasn’t relevant to this malware
-and using PE explorer and PEID there showed to be no indication that this malware was
-commercially packed.</p>
-<p>Checking the imports tables I can across something interesting. A TLS alloc function, which was
-weird because of the fact that there was not TLS section or Table in this PE executable. I will
-look at this later.</p>
-<p>In the strings window I found the following:</p>
+					<h1 id="introduction">Introduction</h1>
+<p>LIKEAHORSE is a ransomware which garnered news in the month of January but while it was looked at, I have found no real report on its features and abilities online. Therefore, this blog post will be going over all its capabilities for future reference if any variation of it comes out in the future. As opposed to most mainstream malware, LIKEAHORSE is small but just as robust in doing the necessary attack assigned and should still be taken seriously.</p>
+<h2 id="malware-targets">Malware Targets</h2>
+<p>Looking at the code of the executable, the first thing checked is the default language ID of the computer. If the language ID numbers are found the process is immediately terminated. The countries &amp; languages not affected by this malware are <strong>Tatar via Russia</strong>, <strong>Armenian via Armenia</strong>, <strong>Azerbaijani via Azerbaijan</strong>, <strong>Kyrgyz via Kyrgyzstan</strong>, <strong>Tajik via Cyrillic and Tajikistan</strong>, <strong>Belarusian via Belarus</strong>, <strong>Kazak via Kazakhstan</strong>.</p>
+<p>This leads me to speculate that this malware originated from somewhere eastern European, possibly Russia.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
 	class="lazyload post__image" 
     data-sizes="auto"
     src="/img/placeholder.svg"
-    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/Invicea%20Tunnel/image-000.png'
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/image-000.png'
     alt='image'
      title="image"
  	/>
 </figure>
 </p>
-<p>As I stated before, this binary doesn’t appear to be packed in anyway so this was clearly unusual.
-XREFing it with its sub routine of sub_40CA00.</p>
+<h2 id="privilege-escalation-attempt">Privilege Escalation Attempt</h2>
+<p>The interesting feature of this sample is its ability to delete shadow copies using the program vssadmine.exe. Shadow copies are backups/snapshots of a windows system to roll back the clock on the system in the event of file corruption, deletion or in this case ransomware.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
 	class="lazyload post__image" 
     data-sizes="auto"
     src="/img/placeholder.svg"
-    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/Invicea%20Tunnel/image-001.png'
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/image-001.png'
     alt='image'
      title="image"
  	/>
 </figure>
 </p>
-<p>This sub_routine does two things. It starts up this so called unpack200.exe executable and
-it DEBUGS. You see, upon further review I noticed that this executable is using the
-EXE4J_LOG and ISNTALL4J_LOG environment names to actually record that data about the
-program. This program is actually using Java libraries to run certain commands and operations. I
-believe this was done to in a way hide its initial functionality as these JRE functions do not show
-up on the Import Table.</p>
-<p>Although because of that fact that everything is being recorded in the current directory of
-the name .error which isn’t even hidden its hard to understand what their intensions are.
-The debugging is done in sub_routine 406FF4. I will call this sub_routine DEBUG
-In subroutine sub_40CC20 I see that the sub_routine ( 40CA00) is being called. 40CC20 gives
-40CA000 an argument of jar files.</p>
-<p>For those who do not know Jar files are an archive format. This unpack200.exe “ appears ” to be
-unpacking these jar files and using the files inside of them for some purpose.</p>
+<p>Because of this ability LIKEAHORSE must then escalate its privileges. This is done through capturing tokens and then using the tool runas to launch LIKEAHORSE as administrator. If successful, the shadow copies will be deleted, making reverting to an earlier state after the attack more difficult if not impossible without proper offline backups.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
 	class="lazyload post__image" 
     data-sizes="auto"
     src="/img/placeholder.svg"
-    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/Invicea%20Tunnel/image-002.png'
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/image-002.png'
     alt='image'
      title="image"
  	/>
 </figure>
 </p>
-<p>I was able to find command line arguments. It seems as though the command line arguments
--console can be used although this had no noticeable effect on the execution of the program.
-From here I just decided to jump right into Dynmanic analysis. I want to see what exactly is
-going on.</p>
-<h1 id="autoruns">Autoruns</h1>
-<p>A software known as xtunnel2 was found as a new registry key for a file currently not on my
-system called PortMapClient -min.exe. This opens the door for what this malware could be.
-There is actually a family of Xtunnel malware.</p>
-<p>Through static analysis I was able to find an IP address: 45.114.10.45. I did an IP lookup and it
-was a chinese host name but at the same time since this malware was rather old this could be
-misleading seeing how someone else could have been using this IP.</p>
-<p>I now have a method of capturing network traffic. Using the IP I created a host only network and
-redirected all network traffic to me and sent data back using Inetsim. This didn’t lead to much
-except for the fact about every second that this program was trying to connect to and IP even
-when no buttons were being pressed. This was very suspicious. I will post the captured packet
-below.</p>
-<p>This malware also can’t have two instances of itself open at the same time. While that usually
-indicates a mutex that didn’t appear to be the cases as I couldn’t find one.</p>
+<h2 id="defense-take-down">Defense Take Down</h2>
+<p>Even if privileges are not escalated LIKEAHORSE can still issue the following commands to take down the defenses of the target.</p>
+<ul>
+<li>bcdedit /set {current} bootstatuspolicy ignoreallfailures</li>
+<li>bcdedit /set {current} recoveryenabled no</li>
+<li>netsh advfirewall set allprofiles state off</li>
+</ul>
+<p>Also, the program tesql.exe is tried to be found but the reason for this is unclear.</p>
+<h2 id="encryption-keys-mechanisms--fail-safe-feature">Encryption Keys Mechanisms &amp; Fail Safe Feature</h2>
+<p>LIKEAHORSE utilizes a key encryption method that doesn’t take away from its strength but acts like a host-based indicator for future variants. First, there is a hard coded base64 encoded RSA encryption key found within the binary itself. This key is then used to encrypt the generated private keys created during run time. This private key is then encoded with base64 and then written to a PNG file called <strong><em>uninstall</em>.png</strong>. This by the way is a fake PNG file and not steganography. An unencrypted public key which is generated by the program at run time is also written to this file.</p>
+<p><figure class="post__image">
+	<img 
+	itemprop="image"
+	class="lazyload post__image" 
+    data-sizes="auto"
+    src="/img/placeholder.svg"
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/image-003.png'
+    alt='image'
+     title="image"
+ 	/>
+</figure>
+</p>
+<p>From analyzing this sample, I believe I can speculate that this is some sort of fail safe. The file <strong><em>uninstall</em>.png</strong> is written only once and written as a PNG file. Therefore, this file will probably be overlooked. If the ransomware ever encrypted the authors computer this the encryption keys can be recovered with the second pair of the hardcoded base64 encoded key. Now while this protects the authors this also created a large host-based indicator which can be used to possible track versions of the malware sample.</p>
+<p><strong>Hard Coded Key</strong></p>
+<ul>
+<li>MD5: 6c9954510b946650e2334662cd66deb9</li>
+<li>SHA-1: 187f1ec4893e51a7a0d8387770b74a35863a4254</li>
+<li>SHA-256: 64383d0284c129587615505c8967d5a924b999a8c6a44a326988b4df461f8c50</li>
+</ul>
+<p>This doesn’t help the victim as they will never have access to the 2nd key pair.</p>
+<h2 id="ransomware-note">RANSOMWARE NOTE</h2>
+<p>LIKEAHORSE leaves a ransomware note detailing how the payment method should go down. It also contains a unique ID.</p>
+<p><figure class="post__image">
+	<img 
+	itemprop="image"
+	class="lazyload post__image" 
+    data-sizes="auto"
+    src="/img/placeholder.svg"
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/image-004.png'
+    alt='image'
+     title="image"
+ 	/>
+</figure>
+</p>
+<ul>
+<li>MD5: a096f2bd21b84276abd6b39833db1714</li>
+<li>SHA-1: 13044247b7c10bd46edf267b745f29b057265fb8</li>
+<li>SHA-256: 0b2c5164788763f143600520cb9e89e797cbe3e634db182100bdb51312c2c21c</li>
+</ul>
+<h2 id="network-capabilities">Network Capabilities</h2>
+<p>From my analysis there are no signs that LIKEAHORSE can move through a network or that it is actively looking for a vulnerability to do so. There is a total lack of network activity all together. It does have the ability to encrypt multiple logical drives though but that is the extent of its pervasiveness.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>LIKEAHORSE should be categorized as a low-grade ransomware. It’s lack of worm like abilities and less ensured privilege escalation tactics make it not as powerful as other ransomware. The analysis here was done on a Windows 7 virtual machine and even then, its privilege escalation technique did not work. Using good backups which are offloaded are still an effective mechanism for combatting this ransomware but there are several more.</p>
+<ul>
+<li>
+<p>Hardening configuration audits so that this sample cannot take down defenses is a must.</p>
+</li>
+<li>
+<p>Updating IOCs found in this report should also happen. The encryption keys hard coded provide a great host-based IOC that can be used to quickly determine this sample and track version changes.</p>
+</li>
+</ul>
+<h2 id="likeahorse-signatures">LIKEAHORSE SIGNATURES</h2>
+<ul>
+<li>MD5: bb23e3de5bcd95e4c5b47ba1276f4a39</li>
+<li>SHA-1: e8066a96876c287b837869412e6be99847f4588c</li>
+<li>SHA-256: 6d2efda037fe23b1fe3a5bae44f5b9f7ddfdf621c5df6cb6999d801bbdf79b0f</li>
+</ul>
 
 					
     <hr>
-    <p> <a href="post/Invicea%20Tunnel%20Analysis.md">Edit on Github</a>.</p>
+    <p> <a href="post/LIKEAHORSE%20ANALYSIS%20report.md">Edit on Github</a>.</p>
     <hr>
 
 					
@@ -366,20 +399,20 @@ indicates a mutex that didn’t appear to be the cases as I couldn’t find one.
 					<footer class="entry__footer">
 						
 <div class="post__tag">
-			<a href="/tags/tunnel/"># tunnel</a>
-			<a href="/tags/autoruns/"># autoruns</a>
-			<a href="/tags/trojan/"># trojan</a>
+			<a href="/tags/powershell/"># powershell</a>
+			<a href="/tags/fileless/"># fileless</a>
+			<a href="/tags/obfuscation/"># obfuscation</a>
 </div>
 						
 <div class="post__share">
-	<a class="js-share btn" title=" Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmalscope.com%2fpost%2finvicea-tunnel-analysis%2f" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' Facebook', 'width=800,height=600,toolbar=0,status=0'); return false">
+	<a class="js-share btn" title=" Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmalscope.com%2fpost%2flikeahorse-analysis-report%2f" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' Facebook', 'width=800,height=600,toolbar=0,status=0'); return false">
 		<svg class="share__icon" aria-label="Facebook" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M330 512V322h64l9-74h-73v-47c0-22 6-36 37-36h39V99c-7-1-30-3-57-3-57 0-95 34-95 98v54h-64v74h64v190z"/></svg>
 	</a>
-	<a class="js-share btn" title=" Twitter" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fmalscope.com%2fpost%2finvicea-tunnel-analysis%2f&amp;text=Invicea%20Tunnel%20Malware%20Analysis" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' Twitter', 'width=800,height=450,resizable=yes,toolbar=0,status=0'); return false">
+	<a class="js-share btn" title=" Twitter" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fmalscope.com%2fpost%2flikeahorse-analysis-report%2f&amp;text=LIKEAHORSE%20Malware%20Report.%20Uncovering%20its%20Secrets" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' Twitter', 'width=800,height=450,resizable=yes,toolbar=0,status=0'); return false">
 		<svg class="share__icon" aria-label="Twitter" viewBox="0 0 24.999 20.316"><path d="M25 2.405a10.253 10.253 0 0 1-2.947.808A5.144 5.144 0 0 0 24.308.376 10.27 10.27 0 0 1 21.05 1.62a5.134 5.134 0 0 0-8.74 4.68A14.56 14.56 0 0 1 1.74.94a5.134 5.134 0 0 0 1.587 6.846 5.108 5.108 0 0 1-2.323-.642v.064a5.132 5.132 0 0 0 4.114 5.03 5.142 5.142 0 0 1-2.316.088 5.134 5.134 0 0 0 4.79 3.562 10.29 10.29 0 0 1-6.37 2.2A10.44 10.44 0 0 1 0 18.012a14.586 14.586 0 0 0 22.454-12.29q0-.333-.015-.662A10.423 10.423 0 0 0 25 2.405z" /></svg>
 
 	</a>
-	<a class="js-share btn" title=" LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fmalscope.com%2fpost%2finvicea-tunnel-analysis%2f&title=Invicea%20Tunnel%20Malware%20Analysis" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' LinkedIn', 'width=640,height=480,toolbar=0,status=0'); return false">
+	<a class="js-share btn" title=" LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fmalscope.com%2fpost%2flikeahorse-analysis-report%2f&title=LIKEAHORSE%20Malware%20Report.%20Uncovering%20its%20Secrets" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' LinkedIn', 'width=640,height=480,toolbar=0,status=0'); return false">
 		<svg class="share__icon" aria-label="LinkedIn" role="img" viewBox="0 0 34.48 32"><path d="M29.632,0H2.362A2.336,2.336,0,0,0,0,2.306V29.691A2.337,2.337,0,0,0,2.362,32h27.27A2.342,2.342,0,0,0,32,29.691V2.306A2.34,2.34,0,0,0,29.632,0ZM9.491,27.268H4.744V12H9.491ZM7.119,9.909a2.752,2.752,0,1,1,2.75-2.753A2.753,2.753,0,0,1,7.119,9.909ZM27.268,27.268H22.525V19.842c0-1.772-.033-4.05-2.466-4.05-2.47,0-2.848,1.929-2.848,3.921v7.555H12.468V12h4.553v2.086h.063a4.986,4.986,0,0,1,4.491-2.467c4.806,0,5.694,3.163,5.694,7.275Z"/></svg>
 
 	</a>
@@ -405,6 +438,34 @@ indicates a mutex that didn’t appear to be the cases as I couldn’t find one.
 	
 
 
+
+<div class="post__related related">
+	<div class="wrapper">
+		<h2 class="h5 related__title">You should also read:</h2>
+		
+		<article class="related__item">
+			<div class="feed__meta">
+				
+	<time itemprop="datePublished" class="feed__date" datetime="2022-04-16T10:22:10&#43;07:00">April 16, 2022</time>
+			</div>
+			<h3><a class="invert" href="/post/mevlbkxshp-powershell-script-malware-analysis/">Mevlbkxshp Powershell Script Malware Analysis</a></h3></article>
+		
+		<article class="related__item">
+			<div class="feed__meta">
+				
+	<time itemprop="datePublished" class="feed__date" datetime="2021-09-20T10:22:10&#43;07:00">September 20, 2021</time>
+			</div>
+			<h3><a class="invert" href="/post/nanocore-rat-dropper-fileless/"> VBS Dropper Script for Nanocore RAT. Fileless Properties. </a></h3></article>
+		
+		<article class="related__item">
+			<div class="feed__meta">
+				
+	<time itemprop="datePublished" class="feed__date" datetime="2021-06-02T10:22:10&#43;07:00">June 02, 2021</time>
+			</div>
+			<h3><a class="invert" href="/post/poweliks-malware/">Poweliks Malware Analysis</a></h3></article>
+		
+	</div>
+</div>
 
 	
 <section class="post__comments">

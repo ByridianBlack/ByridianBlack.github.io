@@ -4,8 +4,8 @@
   
   
   <url>
-    <loc>https://malscope.com/tags/autoruns/</loc>
-    <lastmod>2022-04-16T10:22:10+07:00</lastmod>
+    <loc>https://malscope.com/tags/fileless/</loc>
+    <lastmod>2022-04-18T10:22:10+07:00</lastmod>
     
     <changefreq>monthly</changefreq>
     
@@ -18,8 +18,78 @@
   
   
   <url>
+    <loc>https://malscope.com/post/likeahorse-analysis-report/</loc>
+    <lastmod>2022-04-18T10:22:10+07:00</lastmod>
+    
+    
+    
+    
+    <priority>-1</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
     <loc>https://malscope.com/</loc>
-    <lastmod>2022-04-16T10:22:10+07:00</lastmod>
+    <lastmod>2022-04-18T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/obfuscation/</loc>
+    <lastmod>2022-04-18T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/post/</loc>
+    <lastmod>2022-04-18T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/powershell/</loc>
+    <lastmod>2022-04-18T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/</loc>
+    <lastmod>2022-04-18T10:22:10+07:00</lastmod>
     
     <changefreq>monthly</changefreq>
     
@@ -39,62 +109,6 @@
     
     
     <priority>-1</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://malscope.com/post/</loc>
-    <lastmod>2022-04-16T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://malscope.com/tags/</loc>
-    <lastmod>2022-04-16T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://malscope.com/tags/trojan/</loc>
-    <lastmod>2022-04-16T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://malscope.com/tags/tunnel/</loc>
-    <lastmod>2022-04-16T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
     
     
   </url>
@@ -326,6 +340,20 @@
   
   
   <url>
+    <loc>https://malscope.com/tags/autoruns/</loc>
+    <lastmod>2021-10-20T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
     <loc>https://malscope.com/post/invicea-tunnel-analysis/</loc>
     <lastmod>2021-10-20T10:22:10+07:00</lastmod>
     
@@ -333,6 +361,34 @@
     
     
     <priority>-1</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/trojan/</loc>
+    <lastmod>2021-10-20T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/tunnel/</loc>
+    <lastmod>2021-10-20T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
     
     
   </url>
@@ -368,36 +424,8 @@
   
   
   <url>
-    <loc>https://malscope.com/tags/fileless/</loc>
-    <lastmod>2021-09-20T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
     <loc>https://malscope.com/tags/nanocore-rat/</loc>
     <lastmod>2021-09-20T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://malscope.com/tags/obfuscation/</loc>
-    <lastmod>2021-06-02T10:22:10+07:00</lastmod>
     
     <changefreq>monthly</changefreq>
     
