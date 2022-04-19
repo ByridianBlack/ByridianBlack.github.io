@@ -4,6 +4,104 @@
   
   
   <url>
+    <loc>https://malscope.com/tags/crackme/</loc>
+    <lastmod>2022-04-19T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/post/danofreds-simple-crackme-writeup/</loc>
+    <lastmod>2022-04-19T10:22:10+07:00</lastmod>
+    
+    
+    
+    
+    <priority>-1</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/</loc>
+    <lastmod>2022-04-19T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/post/</loc>
+    <lastmod>2022-04-19T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/reverse-engineering/</loc>
+    <lastmod>2022-04-19T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/</loc>
+    <lastmod>2022-04-19T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/writeup/</loc>
+    <lastmod>2022-04-19T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
     <loc>https://malscope.com/tags/fileless/</loc>
     <lastmod>2022-04-18T10:22:10+07:00</lastmod>
     
@@ -32,20 +130,6 @@
   
   
   <url>
-    <loc>https://malscope.com/</loc>
-    <lastmod>2022-04-18T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
     <loc>https://malscope.com/tags/obfuscation/</loc>
     <lastmod>2022-04-18T10:22:10+07:00</lastmod>
     
@@ -60,35 +144,7 @@
   
   
   <url>
-    <loc>https://malscope.com/post/</loc>
-    <lastmod>2022-04-18T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
     <loc>https://malscope.com/tags/powershell/</loc>
-    <lastmod>2022-04-18T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://malscope.com/tags/</loc>
     <lastmod>2022-04-18T10:22:10+07:00</lastmod>
     
     <changefreq>monthly</changefreq>

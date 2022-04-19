@@ -8,10 +8,37 @@
     <language>en</language>
     <managingEditor>pco2001w@gmail.com (ByridianBlack)</managingEditor>
     <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
-    <lastBuildDate>Mon, 18 Apr 2022 10:22:10 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 19 Apr 2022 10:22:10 +0700</lastBuildDate>
     
 	<atom:link href="https://malscope.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>crackme</title>
+      <link>https://malscope.com/tags/crackme/</link>
+      <pubDate>Tue, 19 Apr 2022 10:22:10 +0700</pubDate>
+      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <guid>https://malscope.com/tags/crackme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reverse engineering</title>
+      <link>https://malscope.com/tags/reverse-engineering/</link>
+      <pubDate>Tue, 19 Apr 2022 10:22:10 +0700</pubDate>
+      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <guid>https://malscope.com/tags/reverse-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writeup</title>
+      <link>https://malscope.com/tags/writeup/</link>
+      <pubDate>Tue, 19 Apr 2022 10:22:10 +0700</pubDate>
+      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <guid>https://malscope.com/tags/writeup/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>fileless</title>

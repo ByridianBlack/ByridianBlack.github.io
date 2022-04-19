@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>crackme on MalScope</title>
+    <link>https://malscope.com/tags/crackme/</link>
+    <description>Recent content in crackme on MalScope</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>pco2001w@gmail.com (ByridianBlack)</managingEditor>
+    <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
+    <lastBuildDate>Tue, 19 Apr 2022 10:22:10 +0700</lastBuildDate>
+    
+	<atom:link href="https://malscope.com/tags/crackme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Danofred&#39;s Simple CrackMe WriteUp</title>
+      <link>https://malscope.com/post/danofreds-simple-crackme-writeup/</link>
+      <pubDate>Tue, 19 Apr 2022 10:22:10 +0700</pubDate>
+      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <guid>https://malscope.com/post/danofreds-simple-crackme-writeup/</guid>
+      <description>Author: ByridianBlack
+Challenge Won: April 18th, 2022
+Author of Challenge: Danofred</description>
+    </item>
+    
+  </channel>
+</rss>
