@@ -8,19 +8,19 @@
 	<meta name="theme-color" content="#1da1f2">
 	<title>Darkside Malware |  MalScope </title>
 	<meta name="description"
-		content="Darkside is a ransomware notorious for attacking high profile industrial control systems and facilities.">
+		content="Darkside is ransomware notorious for attacking high-profile industrial control systems and facilities.">
 	<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/darkside/0.png"/>
 
 <meta name="twitter:title" content="Darkside Malware"/>
-<meta name="twitter:description" content="Darkside is a ransomware notorious for attacking high profile industrial control systems and facilities."/>
+<meta name="twitter:description" content="Darkside is ransomware notorious for attacking high-profile industrial control systems and facilities."/>
 
 	<meta name="twitter:site" content="@ByridianBlack" />
 	<meta itemprop="name" content="Darkside Malware">
-<meta itemprop="description" content="Darkside is a ransomware notorious for attacking high profile industrial control systems and facilities.">
+<meta itemprop="description" content="Darkside is ransomware notorious for attacking high-profile industrial control systems and facilities.">
 <meta itemprop="datePublished" content="2022-02-16T10:22:10&#43;07:00" />
 <meta itemprop="dateModified" content="2022-02-16T10:22:10&#43;07:00" />
-<meta itemprop="wordCount" content="419">
+<meta itemprop="wordCount" content="391">
 <meta itemprop="image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/darkside/0.png">
 
 
@@ -95,10 +95,10 @@
 	"headline":"Darkside Malware",
 	"datePublished":"2022-02-16T10",
 	"dateModified":"2022-02-16T10",
-	"description":"Darkside is a ransomware notorious for attacking high profile industrial control systems and facilities.",
+	"description":"Darkside is ransomware notorious for attacking high-profile industrial control systems and facilities.",
 	"isFamilyFriendly": "true",
 	"image":  ["https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/darkside/0.png"] ,
-	"wordCount" : "419",
+	"wordCount" : "391",
 	"keywords": ["darkside","malware","dark"],
 	"genre": ["darkside","malware","dark"],
 	"accountablePerson": {
@@ -249,7 +249,7 @@
     <p>🔄 Updated: 
         <time itemprop="dateModified" datetime="2022-02-16T10:22:10&#43;07:00">February 16, 2022</time>
     </p>
-    <p>🕔 2 min read ∙ 419 words</p></div>
+    <p>🕔 2 min read ∙ 391 words</p></div>
 			
 <nav class="breadcrumb block" aria-label="breadcrumb">
 	<ol class="breadcrumb__list">
@@ -266,9 +266,9 @@
 			<div class="single block">
 				<article class="entry" id="article">
 					<div class="entry__content">
-					<p>Darkside is a ransomware notorious for attacking high profile industrial control systems and facilities. It’s most famous attack was against the Colonial Pipeline line in the United States between May 6 – May 12 of 2021. This attack show cased how dangerous ransomware can be and what an effect these types of attacks can have on the country and world. This is an analysis on Darkside.</p>
+					<p>Darkside is ransomware notorious for attacking high-profile industrial control systems and facilities. Its most famous attack was against the Colonial Pipeline line in the United States between May 6 – and May 12, 2021. This attack showcased how dangerous ransomware can be and the effect these attacks can have on the country and the world. This blog post is an analysis of Darkside.</p>
 <h2 id="analysis">Analysis</h2>
-<p>Darkside utilizes a lot of dynamic allocation as means to hide its functionality. This is done with the usage of LoadLibrary and GetProcessAddress functions. What makes this so difficult is their usage of encrypted strings which have to go through an decryption process in order to be used first. This added to the complexity and could not be statically resolved. To determine what these strings were dynamic analysis was necessary.</p>
+<p>Darkside utilizes a lot of dynamic allocation as means to hide its functionality. This is done with the usage of LoadLibrary and GetProcessAddress functions. What makes this so tricky is their usage of encrypted strings, which have to go through a decryption process first. This added to the complexity and could be statically resolved. Dynamic analysis was necessary.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
@@ -281,7 +281,7 @@
  	/>
 </figure>
 </p>
-<p>The decryption process is done entire through the use of the key created through this function, taking in two smaller 16 length keys it creates a 256 byte decryption key which is utilized through the entire malware to dynamically allocate and resolve strings and API. Because of the constant value of the key, the key is a great host base indicator as long as new versions do not change these.</p>
+<p>The decryption process is done entirely by using the key created through this function. Taking in two more minor 16-length keys, it makes a 256-byte decryption key, which is utilized through the entire malware to allocate and resolve strings and APIs dynamically. Because of the constant value of the key, the key is a great host base indicator as long as new versions do not change these.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
@@ -306,7 +306,7 @@
  	/>
 </figure>
 </p>
-<p>The API’s are resolved here, looping through dword values and setting them accordingly. Afterwards the dword values are as followed:</p>
+<p>The APIs are resolved here, looping through dword values and setting them accordingly. Afterward, the dword values are as follows:</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
@@ -319,7 +319,7 @@
  	/>
 </figure>
 </p>
-<p>What really made Darkside ransomware so interesting was its usage of a UAC bypass to encrypt to begin with. A UAC stand for User Access Control, and bypassing it gives a program more control and privileges. In this case Darkside utilized a COM object to achieve these higher privileges. Note the following.</p>
+<p>What made Darkside ransomware so interesting was its usage of a UAC bypass to encrypt. UAC stands for User Access Control and bypassing it gives a program more control and privileges. Darkside utilized a COM object to achieve these higher privileges in this case. Note the following.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
@@ -332,9 +332,9 @@
  	/>
 </figure>
 </p>
-<p>Initially Darkside is execute but almost immediately it executes the COM object CMSTPLUA. This being generated in a very specific way; C:\Windows\system32\DllHost.exe /Processid:{3E5FC7F9-9A51-4367-9063-A120244FBEC7}. Was is important about this COM object is that it is given higher privileges because it is listed under trusted COM by Windows. It then executes a ShellExecute function on Darkside, running it now in higher privileges.</p>
-<p>List of Approved COM is listed in the registry: Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\UAC\COMAutoApprovalList</p>
-<p>For now, this is all my analysis as taken from this piece of malware. This malware is interesting because of its ability to escalate its privilege and with relative ease and less noise than other means. Like most security exploits, utilizing the trust places in other resources was the downfall here as Darkside was able to capitalize on this and proceed with the encryption process and steal money accordingly.</p>
+<p>Darkside is initially executed but almost immediately executes the COM object CMSTPLUA. This being generated in a very specific way; C:\Windows\system32\DllHost.exe /Processid:{3E5FC7F9-9A51-4367-9063-A120244FBEC7}. Was is important about this COM object is that it is given higher privileges because it is listed under trusted COM by Windows. It then executes a ShellExecute function on Darkside, running it now in higher privileges.</p>
+<p>A list of Approved COM is listed in the registry: Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\UAC\COMAutoApprovalList.</p>
+<p>This is all my analysis as taken from this piece of malware. This malware is interesting because of its ability to escalate its privilege with relative ease and less noise than other means. Like most security exploits, utilizing the trust placed in other resources was the downfall here, as Darkside could capitalize on this and proceed with the encryption process and steal money accordingly.</p>
 
 					
     <hr>

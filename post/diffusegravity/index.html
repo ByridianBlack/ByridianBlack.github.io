@@ -8,19 +8,19 @@
 	<meta name="theme-color" content="#1da1f2">
 	<title>DiffuseGravity |  MalScope </title>
 	<meta name="description"
-		content="Introduction VB6 compiler can be treated as a packer because of its translation from what is known as P code into assembly code.">
+		content="Introduction VB6 compiler can be treated as a packer because of its translation from what is known as P-code into assembly code.">
 	<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/diffuse_gravity/gravity.jpg"/>
 
 <meta name="twitter:title" content="DiffuseGravity"/>
-<meta name="twitter:description" content="Introduction VB6 compiler can be treated as a packer because of its translation from what is known as P code into assembly code."/>
+<meta name="twitter:description" content="Introduction VB6 compiler can be treated as a packer because of its translation from what is known as P-code into assembly code."/>
 
 	<meta name="twitter:site" content="@ByridianBlack" />
 	<meta itemprop="name" content="DiffuseGravity">
-<meta itemprop="description" content="Introduction VB6 compiler can be treated as a packer because of its translation from what is known as P code into assembly code.">
+<meta itemprop="description" content="Introduction VB6 compiler can be treated as a packer because of its translation from what is known as P-code into assembly code.">
 <meta itemprop="datePublished" content="2021-11-25T10:22:10&#43;07:00" />
 <meta itemprop="dateModified" content="2021-11-25T10:22:10&#43;07:00" />
-<meta itemprop="wordCount" content="1208">
+<meta itemprop="wordCount" content="1143">
 <meta itemprop="image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/diffuse_gravity/gravity.jpg">
 
 
@@ -95,10 +95,10 @@
 	"headline":"DiffuseGravity",
 	"datePublished":"2021-11-25T10",
 	"dateModified":"2021-11-25T10",
-	"description":"Introduction VB6 compiler can be treated as a packer because of its translation from what is known as P code into assembly code.",
+	"description":"Introduction VB6 compiler can be treated as a packer because of its translation from what is known as P-code into assembly code.",
 	"isFamilyFriendly": "true",
 	"image":  ["https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/diffuse_gravity/gravity.jpg"] ,
-	"wordCount" : "1208",
+	"wordCount" : "1143",
 	"keywords": ["keylogger","resource","dll"],
 	"genre": ["keylogger","resource","dll"],
 	"accountablePerson": {
@@ -271,7 +271,7 @@
     <p>🔄 Updated: 
         <time itemprop="dateModified" datetime="2021-11-25T10:22:10&#43;07:00">November 25, 2021</time>
     </p>
-    <p>🕔 6 min read ∙ 1208 words</p></div>
+    <p>🕔 6 min read ∙ 1143 words</p></div>
 			
 <nav class="breadcrumb block" aria-label="breadcrumb">
 	<ol class="breadcrumb__list">
@@ -289,11 +289,11 @@
 				<article class="entry" id="article">
 					<div class="entry__content">
 					<h2 id="introduction">Introduction</h2>
-<p>VB6 compiler can be treated as a packer because of its translation from what is known as P code into assembly code. This makes static analysis of it impossible unless manual unpacking is done which will be implemented using a debugger such as, x64dbg. For reference, see A.1 of the appendix for what an unpacked version VB6 looks like in IDA pro.</p>
+<p>VB6 compiler can be treated as a packer because of its translation from what is known as P-code into assembly code. This makes static analysis of it impossible unless manual unpacked, which will be implemented using a debugger such as x64dbg. For reference, see A.1 of the appendix for what an unpacked version VB6 looks like in IDA pro.</p>
 <h2 id="unpacking-procedure">Unpacking Procedure</h2>
-<p>This sample was utilizing allocated memory to write an at the same time change its protection rights a means to start a new execution. This is a typical approach and can easily be captured through the usage of setting break points on the following APIs. IsDebuggerPresent, VirtualAlloc, and VirtualProtect, CreateProcessInternalW and or CreateProcessInternalA.</p>
-<p>IsDebuggerPresent is typical because of the usage of anti-debugging in malware such as these. Setting a break point at this function can allow us to zero out its return value thus negating its effects.</p>
-<p>This sample called upon VirtualAlloc more than 10 times, all while returning the same address all except the very last one. This was very tedious, and I recommend the following approach.</p>
+<p>This sample utilized allocated memory to write and, at the same time, change its protection rights to start a new execution. This approach is typical and can be captured through the usage of setting breakpoints on the following APIs. IsDebuggerPresent, VirtualAlloc, and VirtualProtect, CreateProcessInternalW and or CreateProcessInternalA.</p>
+<p>IsDebuggerPresent is typical because of anti-debugging in malware such as these. Setting a breakpoint at this function can allow us to zero out its return value, thus negating its effects.</p>
+<p>This sample called upon VirtualAlloc more than ten times, all while returning the same address, except the very last one. This was very tedious, and I recommend the following approach.</p>
 <ul>
 <li>Set a break point solely on CreateProcessInternal(A/W) and wait until its execution.</li>
 <li>Search the executable for strings that would be included within every PE executable.</li>
@@ -301,10 +301,10 @@
 <li>Finding the start address of this allocated memory can then be dumped to file and analyzed. Debugging should be stopped unless further dynamic analysis would want to be done on the new executed file.</li>
 </ul>
 <h2 id="static-analysis---unpacked-sample">Static Analysis - Unpacked Sample</h2>
-<p>Sample is compiled with Borland Delphi compiler version 2.25. Based around the entropy it was determined that the resource section was packed in some way. The sample also included VirtualAlloc, Sleep, HeapAlloc and GetProcessAddress and LoadLibrary. The last two indicate that some dynamic linking is done along with static linkage.</p>
-<p>It could be determined that the resource section was being unpacked with an unknown algorithm. In these situations, it is best to allow the program to handle this itself and will be noted during debugging.</p>
+<p>The sample is compiled with Borland Delphi compiler version 2.25. Based on the entropy, it was determined that the resource section is packed in some way. The sample also included VirtualAlloc, Sleep, HeapAlloc and GetProcessAddress, and LoadLibrary. The last two indicate that some dynamic linking is done along with static linkage.</p>
+<p>It could be determined that the resource section was being unpacked with an unknown algorithm. It is best to allow the program to handle this itself in these situations, and it will be noted during debugging.</p>
 <h2 id="dynamic-analysis---debugger">Dynamic Analysis - Debugger</h2>
-<p>Moving on from static analysis I decided to set the following API breakpoints. The following are standard. Breakpoints are set on CreateFile(A/W), CreateProcessInternal(A/W), MapViewofFile, VirtualAlloc, VirtualProtect, CreateFileMapping(A/W), WriteFile and ResumeThread. Through these APIs the following behavior was found.</p>
+<p>I decided to set the following API breakpoints moving on from static analysis. The following are standard. Breakpoints are set on CreateFile(A/W), CreateProcessInternal(A/W), MapViewofFile, VirtualAlloc, VirtualProtect, CreateFileMapping(A/W), WriteFile and ResumeThread. Through these APIs, the following behavior was found.</p>
 <p>The windows executables were being used for execution:</p>
 <ul>
 <li>Powershell.exe</li>
@@ -313,20 +313,20 @@
 </ul>
 <p>See Appendix <strong>A.2 - A.4</strong> for more background information on the previously stated windows executables.</p>
 <h2 id="techniques-and-tactics">Techniques and Tactics</h2>
-<p>Diffuse gravity utilizes a lot common but good techniques that can keep it from being detected especially from an unsuspecting user. For its abilities I categorize it as a malware which is a lay of the land. It utilizes trusted tools provided by Windows to do most of the heavy lifting.</p>
+<p>Diffuse gravity utilizes many standard techniques to prevent it from being detected, especially by an unsuspecting user. For its abilities, I categorize it as malware, a lay of the land. It utilizes trusted tools provided by Windows to do most of the heavy lifting.</p>
 <h2 id="network-communication-hiding">Network Communication Hiding</h2>
-<p>Regsvr32.exe is utilized by this malware as a means of communications with outside networks. It utilizes its network capabilities to send TCP communications outbound through http. Although no analytical data was captured, it was observed that several IP address that had no official Microsoft affiliation were being used. With a program pertaining to one such as regsvr32.exe any network communications would have regular occurring IP addresses communicated with, but log analysis showed irregular and an abundance of non-windows IP addresses. Log analysis using Procmon has shown that the application regsvr32.exe has been looking through the HKCU\Software\cnatdatkc registry directory. This was created and has components on it that can restart the entire process with a .htm file.</p>
+<p>This malware utilizes Regsvr32.exe as a means of communication with outside networks. It uses its network capabilities to send TCP communications outbound through HTTP. Although no analytical data was captured, it was observed that several IP addresses that had no official Microsoft affiliation were being used. With a program like regsvr32.exe, any network communications would have regular occurring IP addresses, but log analysis showed irregular and an abundance of non-windows IP addresses. Log analysis using Procmon has demonstrated that the application regsvr32.exe has been looking through the HKCU\Software\cnatdatkc registry directory. This was created and has components on it that can restart the entire process with a .htm file.</p>
 <p>The Procmon log file will be included in the <strong>Appendix A.5</strong>.</p>
 <h2 id="shell-code-running-and-code-obfuscation">Shell Code Running and Code Obfuscation</h2>
-<p>The primary function of this malware acts like a loader of payloads which are then executed by more trusted software such as PowerShell. One such example is the shell code found in a PowerShell script file and executed. This PowerShell script can be found in <strong>Appendix A.6</strong> but it should be noted that this file has been de-obfuscated, and the original was in the base64 encoding, an encoding used a lot throughout this sample.</p>
-<p>Analysis of the shell code proved to be difficult. Using tools such as scdbg proved to be ineffective as the output did not make much sense. The shell code can be found in <strong>Appendix A.7</strong>. In addition to the process tree, which can be found in <strong>Appendix A.8</strong>, it is fair to say that this shell code is what might be injected in the regsvr32.exe file. Also, with the prior mentioned log files and the odd behavior displayed by regsvr32.exe this too backs up this claim.
-While base64 is the main obfuscation technique here it is not the only one as self-created algorithms have been formed to keep detection low. This will be talked about in relationship to this malware’s persistence solution.</p>
+<p>The primary function of this malware is to act as a loader of payloads which are then executed by more trusted software such as PowerShell. One such example is the shellcode found in a PowerShell script file and run. This PowerShell script can be found in <strong>Appendix A.6</strong> but should be noted that this file has been de-obfuscated, and the original was in the base64 encoding, an encoding used a lot throughout this sample.</p>
+<p>Analysis of the shellcode proved to be complicated. Using tools such as scdbg proved to be ineffective as the output did not make much sense. The shellcode can be found in <strong>Appendix A.7</strong>. In addition to the process tree, which can be found in <strong>Appendix A.8</strong>, it is fair to say that this shellcode is what might be injected into the regsvr32.exe file—also, the previously mentioned log files and the odd behavior displayed by regsvr32.exe back up this claim.</p>
+<p>While base64 is the primary obfuscation technique here, it is not the only one, as self-created algorithms have been formed to keep detection low. This will be talked about in relation to this malware’s persistence solution.</p>
 <h2 id="persistence">Persistence</h2>
-<p>Diffusegravity utilizes the registry to gain persistence after reboot, executing a very obfuscated JavaScript file which utilizes its own XOR algorithm to decrypt the data. This file can be found in <strong>Appendix A.9</strong>. The data is decrypted to a PowerShell script which again utilizes base64 to hide its contents. This data is then Invoked to execute by PowerShell. The decoding of this data reveals to be the setup and shell code for which my analysis makes me to believe is being injected into regsvr32.exe and causing it to run and contact outside IP addresses.</p>
+<p>Diffusegravity utilizes the registry to gain persistence after reboot, executing a very obfuscated JavaScript file that utilizes its own XOR algorithm to decrypt the data. This file can be found in <strong>Appendix A.9</strong>. The data is decrypted to a PowerShell script which again utilizes base64 to hide its contents. This data is then Invoked to execute PowerShell. The decoding of this data reveals to be the setup and shellcode for which my analysis makes me believe being injected into regsvr32.exe and causing it to run and contact outside IP addresses.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>My analysis has not brought on a true conclusion. Because of my lack of evidence with examining the injected shell code it is hard to say exactly what is happening within the regsvr32 executable and what is being either downloaded or further executed. One thing that can be stated is that this sample is a Trojan and loader. It disguises itself as a clock with an icon as such. What makes this Trojan so dangerous is how it hides itself. Upon full execution of this malware itself deletes itself and its last shell code utilizes the tools which are provided by the system to execute
-what is further needed to be done. Even after a system restart with the help of the registry and without the need of the original loader it can restart the programs mshta, powershell and regsvr32 to do the commands it needs to do. This malware could be a botnet, ransomware dropper or even espionage code. The speculation should be saved from this paper as further analysis is necessary to determine the validity of these statements.</p>
-<p>Furthermore, I would categorize this as semi-fileless as its only disk fingerprint is the registry but otherwise exists entirely within memory. The usage of trusted programs will make detection of this very hard for most and almost impossible for those who aren’t looking for it specifically. A completely autonomous malware which travels from windows program to windows program undetected is a very dangerous thing.</p>
+<p>My analysis has not brought to a conclusion. Because of my lack of evidence, it is hard to say what is happening within the regsvr32 executable. One thing that can be stated is that this sample is a Trojan and loader. It disguises itself as a clock with an icon as such. What makes this Trojan so dangerous is how it hides. Upon complete execution of this malware itself deletes itself, and its last shellcode utilizes the tools provided by the system to execute what is further needed.</p>
+<p>Even after a system restart with the help of the registry and without the need of the original loader, it can restart the programs mshta, PowerShell, and regsvr32 to do the commands it needs to do. This malware could be a botnet, ransomware dropper, or espionage code. Speculation should be saved from this paper as further analysis is necessary to determine the validity of these statements.</p>
+<p>Furthermore, I would categorize this as semi-fileless as its only disk fingerprint is the registry but otherwise exists entirely within memory. The usage of trusted programs will make detection of this very hard for most and almost impossible for those who aren’t looking for it specifically. An utterly autonomous malware that travels from windows program to windows program undetected is a dangerous thing.</p>
 <h2 id="indicators-of-compromise-ioc">Indicators of Compromise I.O.C</h2>
 <p>Original Packed Payload
 Sha256: fc4f695752f8eb20b17689e60a7161a43665fa3455dc379aeb2a251838eb4da6</p>

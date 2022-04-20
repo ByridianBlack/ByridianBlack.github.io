@@ -8,19 +8,19 @@
 	<meta name="theme-color" content="#1da1f2">
 	<title>Discord Troll Malware |  MalScope </title>
 	<meta name="description"
-		content="Discord for the past few years has been known to be a hub for spreading malware and while they have done much to crack down on this spread the problem is still prevalent.">
+		content="For the past few years, Discord has been a hub for spreading malware, and while they have done much to crack down on this spread, the problem is still prevalent.">
 	<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/discord/0.png"/>
 
 <meta name="twitter:title" content="Discord Troll Malware"/>
-<meta name="twitter:description" content="Discord for the past few years has been known to be a hub for spreading malware and while they have done much to crack down on this spread the problem is still prevalent."/>
+<meta name="twitter:description" content="For the past few years, Discord has been a hub for spreading malware, and while they have done much to crack down on this spread, the problem is still prevalent."/>
 
 	<meta name="twitter:site" content="@ByridianBlack" />
 	<meta itemprop="name" content="Discord Troll Malware">
-<meta itemprop="description" content="Discord for the past few years has been known to be a hub for spreading malware and while they have done much to crack down on this spread the problem is still prevalent.">
+<meta itemprop="description" content="For the past few years, Discord has been a hub for spreading malware, and while they have done much to crack down on this spread, the problem is still prevalent.">
 <meta itemprop="datePublished" content="2022-01-23T10:22:10&#43;07:00" />
 <meta itemprop="dateModified" content="2022-01-23T10:22:10&#43;07:00" />
-<meta itemprop="wordCount" content="435">
+<meta itemprop="wordCount" content="412">
 <meta itemprop="image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/discord/0.png">
 
 
@@ -95,10 +95,10 @@
 	"headline":"Discord Troll Malware",
 	"datePublished":"2022-01-23T10",
 	"dateModified":"2022-01-23T10",
-	"description":"Discord for the past few years has been known to be a hub for spreading malware and while they have done much to crack down on this spread the problem is still prevalent.",
+	"description":"For the past few years, Discord has been a hub for spreading malware, and while they have done much to crack down on this spread, the problem is still prevalent.",
 	"isFamilyFriendly": "true",
 	"image":  ["https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/discord/0.png"] ,
-	"wordCount" : "435",
+	"wordCount" : "412",
 	"keywords": ["troll","gross","discord"],
 	"genre": ["troll","gross","discord"],
 	"accountablePerson": {
@@ -249,7 +249,7 @@
     <p>🔄 Updated: 
         <time itemprop="dateModified" datetime="2022-01-23T10:22:10&#43;07:00">January 23, 2022</time>
     </p>
-    <p>🕔 3 min read ∙ 435 words</p></div>
+    <p>🕔 2 min read ∙ 412 words</p></div>
 			
 <nav class="breadcrumb block" aria-label="breadcrumb">
 	<ol class="breadcrumb__list">
@@ -266,8 +266,8 @@
 			<div class="single block">
 				<article class="entry" id="article">
 					<div class="entry__content">
-					<p>Discord for the past few years has been known to be a hub for spreading malware and while they have done much to crack down on this spread the problem is still prevalent. The malware I found today on app.any.run was minimally malicious but shows how trojans can very easily be downloaded and executed by unknown individuals using the discord application. Because of the nature of this malware and the disgusting imagery that to shows I will be limiting the screen shots to code, but I will be providing the code, downloaded payloads and everything it used in the malware so that it can be looked at and documented some time in the future.</p>
-<p>The initial payload is small. A file called minecraft.bat, only 12 lines long. It downloads an attachment from discord called minecraftcracked.jar and then executes it. It then executes rundll32.exe on user32.dll, calling UpdatePerUserSystemParameters</p>
+					<p>For the past few years, Discord has been a hub for spreading malware, and while they have done much to crack down on this spread, the problem is still prevalent. The malware I found today on the app.any.run was minimally malicious but showed how trojans could easily be downloaded and executed by unknown individuals using the discord application. Because of the nature of this malware and the disgusting imagery that it shows, I will be limiting the screenshots to code. Still, I will be providing the code, downloaded payloads, and everything used in the malware so that it can be looked at and documented sometime in the future.</p>
+<p>The initial payload is small. A file called minecraft.bat is only 12 lines long. It downloads an attachment from Discord called minecraftcracked.jar and then executes it. It then runs rundll32.exe on user32.dll, calling UpdatePerUserSystemParameters.</p>
 <p><strong>minecraft.bat</strong></p>
 <p>Sha1: 2c8e1fef7cb658a82a79c8d63f427d77074f6d27
 Sha256: 29ec5be083d89ba07fbdebf451709b3c1f8141790557984e5a513d0758f83c9a</p>
@@ -286,11 +286,11 @@ Sha256: 29ec5be083d89ba07fbdebf451709b3c1f8141790557984e5a513d0758f83c9a</p>
 <p><strong>mincraftcracked.jar</strong></p>
 <p>Sha1: cb8f50150230d8d384cae57f6d0e7d167da8efce
 Sha256: a18fe9977d6f99eaa9676cabf0994ad60a7f52a2b730e9b15f91ff4632b8ad85</p>
-<p>Because of the naming of conventions of the files downloaded I can then assume that this is a trojan of sorts. Using the tool jd-gui I was able to completely decompile the jar file. It was nothing more than a downloader of images. These images are then displayed on the screen. I can probably bet that this is done to embarrass the unsuspected victim. The only thing odd about these images are that some of them are incredibly large in size. One being 16 MB and the other 17 MB.</p>
-<p>I therefore had a hunch about them and using the tool binwalk I was to extract a hidden QNX6 file system from one of the images. This was not mountable but as it was soon determined that this file system had been encrypted. No signature or key could be found based of my current abilities and no further evidence of the running program shows that this file system goes through any stage of decryption. This leaves only room to theorize.</p>
-<p>It is possible this is a first stage attack, and this file system could in fact have very import data
-within it and a second payload downloaded could be used to decrypt and then utilize the file
-system in some way. For now, I will hold on to the file system for further analysis.</p>
+<p>Because of the naming conventions of the downloaded files, I can assume that this is a trojan of sorts. Using the tool JD-GUI, I was able to decompile the jar file completely. It was nothing more than a downloader of images. These images are then displayed on the screen. I suspect this was done to embarrass the unsuspected victim. The only thing odd about these images is that some are incredibly large. One is 16 MB and the other 17 MB.</p>
+<p>I, therefore, had a hunch about them and using the tool binwalk, I was to extract a hidden QNX6 file system from one of the images. This was not mountable, but it was soon determined that this file system had been encrypted. No signature or key could be found based on my current abilities, and no further evidence of the running program shows that this file system goes through any decryption stage. This leaves only room to theorize.</p>
+<p>This may be a first-stage attack, and this file system could have very important data
+within it, and a second payload downloaded could be used to decrypt and then utilize the file
+system in some way. I will hold on to the file system for further analysis.</p>
 <h2 id="network-markers">Network Markers</h2>
 <p>Warning – Images are disturbing</p>
 <ol>

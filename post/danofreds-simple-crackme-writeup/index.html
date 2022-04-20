@@ -26,7 +26,7 @@ Challenge Won: April 18th, 2022
 Author of Challenge: Danofred">
 <meta itemprop="datePublished" content="2022-04-19T10:22:10&#43;07:00" />
 <meta itemprop="dateModified" content="2022-04-19T10:22:10&#43;07:00" />
-<meta itemprop="wordCount" content="227">
+<meta itemprop="wordCount" content="215">
 <meta itemprop="image" content="https://www.zeiss.com/content/dam/metrology/products/software/reverse-engineering.jpg">
 
 
@@ -104,7 +104,7 @@ Author of Challenge: Danofred">
 	"description":"Author: ByridianBlack\nChallenge Won: April 18th, 2022\nAuthor of Challenge: Danofred",
 	"isFamilyFriendly": "true",
 	"image":  ["https://www.zeiss.com/content/dam/metrology/products/software/reverse-engineering.jpg"] ,
-	"wordCount" : "227",
+	"wordCount" : "215",
 	"keywords": ["reverse engineering","writeup","crackme"],
 	"genre": ["reverse engineering","writeup","crackme"],
 	"accountablePerson": {
@@ -251,7 +251,7 @@ Author of Challenge: Danofred">
     <p>🔄 Updated: 
         <time itemprop="dateModified" datetime="2022-04-19T10:22:10&#43;07:00">April 19, 2022</time>
     </p>
-    <p>🕔 2 min read ∙ 227 words</p></div>
+    <p>🕔 2 min read ∙ 215 words</p></div>
 			
 <nav class="breadcrumb block" aria-label="breadcrumb">
 	<ol class="breadcrumb__list">
@@ -274,8 +274,8 @@ Author of Challenge: Danofred">
 <p><strong>Source of Challenge</strong>: Crackmes.one</p>
 <p><strong>Level of Difficulty</strong>: Easy</p>
 <p><strong>Challenge Link</strong>: <a href="https://crackmes.one/crackme/624700c033c5d42a191a5a7e">https://crackmes.one/crackme/624700c033c5d42a191a5a7e</a></p>
-<p>This challenge was simple, but I put a constraint on myself that I would not patch the binary in any way to make it more difficult for me to solve and force me to analyze the code to determine how to solve it. Let us get into it!</p>
-<p>The challenge takes in a person’s name which can be anywhere between 4 and 9 characters long and then asks for a serial number which is then copied into a 30-character buffer.</p>
+<p>This challenge was simple, but I put a constraint on myself that I would not patch the binary to make it more difficult for me to solve and force me to analyze the code to determine how to solve it. Let us get into it!</p>
+<p>The challenge takes in a person’s name, which can be anywhere between 4 and 9 characters long, and then asks for a serial number copied into a 30-character buffer.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
@@ -288,7 +288,7 @@ Author of Challenge: Danofred">
  	/>
 </figure>
 </p>
-<p>The program then calls a function called gen, short for generator. Reverse engineering the code showed that it was generating the same 5-character string every time during its execution, being “hijkl”. This string is then added to the end of a Destination buffer, but this destination buffer contains the first 5 elements of your name.</p>
+<p>The program then calls a function called gen, short for generator. In reverse engineering, the code generated the exact 5-character string every time during its execution, being “hijkl.” This string is added to the end of a Destination buffer, but this destination buffer contains the first five elements of your name.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
@@ -301,7 +301,7 @@ Author of Challenge: Danofred">
  	/>
 </figure>
 </p>
-<p>This is then compared with the serial number provided. What is being compared is (name:hijkl) and (serial number). Since I know that the first part of the name should be hijkl, I want to input hijkl as the name so that what will be compared will be “hijklhijkl.” Then the serial number should be inputted as “hijklhijkl.”</p>
+<p>This buffer is compared with the serial number provided. (name:hijkl) and (serial number) are then compared. Since I know that the first part of the name should be hijkl, I want to input hijkl as the name so that what will be compared will be “hijklhijkl.” Then the serial number should be inputted as “hijklhijkl.”</p>
 <p>Correct: When correct the program just exits</p>
 <p><figure class="post__image">
 	<img 

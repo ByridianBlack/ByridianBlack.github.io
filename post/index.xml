@@ -48,7 +48,7 @@ Author of Challenge: Danofred</description>
       <pubDate>Wed, 16 Feb 2022 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/darkside/</guid>
-      <description>Darkside is a ransomware notorious for attacking high profile industrial control systems and facilities.</description>
+      <description>Darkside is ransomware notorious for attacking high-profile industrial control systems and facilities.</description>
     </item>
     
     <item>
@@ -57,7 +57,7 @@ Author of Challenge: Danofred</description>
       <pubDate>Sun, 23 Jan 2022 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/discord/</guid>
-      <description>Discord for the past few years has been known to be a hub for spreading malware and while they have done much to crack down on this spread the problem is still prevalent.</description>
+      <description>For the past few years, Discord has been a hub for spreading malware, and while they have done much to crack down on this spread, the problem is still prevalent.</description>
     </item>
     
     <item>
@@ -66,7 +66,7 @@ Author of Challenge: Danofred</description>
       <pubDate>Thu, 25 Nov 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/diffusegravity/</guid>
-      <description>Introduction VB6 compiler can be treated as a packer because of its translation from what is known as P code into assembly code.</description>
+      <description>Introduction VB6 compiler can be treated as a packer because of its translation from what is known as P-code into assembly code.</description>
     </item>
     
     <item>
@@ -121,7 +121,7 @@ Analysis Initially this piece of malware was UPX packed as shown in the followin
       <pubDate>Sat, 22 May 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/info-stealer-ma/</guid>
-      <description>Introduction Win32/InfoStealer.Dexter is part of a family of malware with the purpose of stealing information such as credit card numbers, passwords or various techniques.</description>
+      <description>Introduction Win32/InfoStealer.Dexter is part of a family of malware to steal information such as credit card numbers, passwords, or various techniques.</description>
     </item>
     
   </channel>
