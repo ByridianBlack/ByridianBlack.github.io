@@ -8,19 +8,19 @@
 	<meta name="theme-color" content="#1da1f2">
 	<title>LIKEAHORSE Malware Report. Uncovering its Secrets |  MalScope </title>
 	<meta name="description"
-		content="Introduction LIKEAHORSE is a ransomware which garnered news in the month of January but while it was looked at, I have found no real report on its features and abilities online.">
+		content="Introduction LIKEAHORSE is ransomware that garnered news in January, but while it was looked at, I have found no actual report on its features and abilities online.">
 	<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/horse.jpg"/>
 
 <meta name="twitter:title" content="LIKEAHORSE Malware Report. Uncovering its Secrets"/>
-<meta name="twitter:description" content="Introduction LIKEAHORSE is a ransomware which garnered news in the month of January but while it was looked at, I have found no real report on its features and abilities online."/>
+<meta name="twitter:description" content="Introduction LIKEAHORSE is ransomware that garnered news in January, but while it was looked at, I have found no actual report on its features and abilities online."/>
 
 	<meta name="twitter:site" content="@ByridianBlack" />
 	<meta itemprop="name" content="LIKEAHORSE Malware Report. Uncovering its Secrets">
-<meta itemprop="description" content="Introduction LIKEAHORSE is a ransomware which garnered news in the month of January but while it was looked at, I have found no real report on its features and abilities online.">
+<meta itemprop="description" content="Introduction LIKEAHORSE is ransomware that garnered news in January, but while it was looked at, I have found no actual report on its features and abilities online.">
 <meta itemprop="datePublished" content="2022-04-18T10:22:10&#43;07:00" />
 <meta itemprop="dateModified" content="2022-04-18T10:22:10&#43;07:00" />
-<meta itemprop="wordCount" content="751">
+<meta itemprop="wordCount" content="730">
 <meta itemprop="image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/horse.jpg">
 
 
@@ -95,10 +95,10 @@
 	"headline":"LIKEAHORSE Malware Report. Uncovering its Secrets",
 	"datePublished":"2022-04-18T10",
 	"dateModified":"2022-04-18T10",
-	"description":"Introduction LIKEAHORSE is a ransomware which garnered news in the month of January but while it was looked at, I have found no real report on its features and abilities online.",
+	"description":"Introduction LIKEAHORSE is ransomware that garnered news in January, but while it was looked at, I have found no actual report on its features and abilities online.",
 	"isFamilyFriendly": "true",
 	"image":  ["https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/horse.jpg"] ,
-	"wordCount" : "751",
+	"wordCount" : "730",
 	"keywords": ["powershell","fileless","obfuscation"],
 	"genre": ["powershell","fileless","obfuscation"],
 	"accountablePerson": {
@@ -256,7 +256,7 @@
     <p>🔄 Updated: 
         <time itemprop="dateModified" datetime="2022-04-18T10:22:10&#43;07:00">April 18, 2022</time>
     </p>
-    <p>🕔 4 min read ∙ 751 words</p></div>
+    <p>🕔 4 min read ∙ 730 words</p></div>
 			
 <nav class="breadcrumb block" aria-label="breadcrumb">
 	<ol class="breadcrumb__list">
@@ -274,9 +274,9 @@
 				<article class="entry" id="article">
 					<div class="entry__content">
 					<h1 id="introduction">Introduction</h1>
-<p>LIKEAHORSE is a ransomware which garnered news in the month of January but while it was looked at, I have found no real report on its features and abilities online. Therefore, this blog post will be going over all its capabilities for future reference if any variation of it comes out in the future. As opposed to most mainstream malware, LIKEAHORSE is small but just as robust in doing the necessary attack assigned and should still be taken seriously.</p>
+<p>LIKEAHORSE is ransomware that garnered news in January, but while it was looked at, I have found no actual report on its features and abilities online. Therefore, this blog post will be going over all its capabilities for future reference if any variation of it comes out in the future. Unlike most mainstream malware, LIKEAHORSE is small but just as robust in making the necessary attack assigned and should still be taken seriously.</p>
 <h2 id="malware-targets">Malware Targets</h2>
-<p>Looking at the code of the executable, the first thing checked is the default language ID of the computer. If the language ID numbers are found the process is immediately terminated. The countries &amp; languages not affected by this malware are <strong>Tatar via Russia</strong>, <strong>Armenian via Armenia</strong>, <strong>Azerbaijani via Azerbaijan</strong>, <strong>Kyrgyz via Kyrgyzstan</strong>, <strong>Tajik via Cyrillic and Tajikistan</strong>, <strong>Belarusian via Belarus</strong>, <strong>Kazak via Kazakhstan</strong>.</p>
+<p>The first thing checked is the default language ID of the computer. If the following language ID numbers are found, the process is immediately terminated. The countries &amp; languages not affected by this malware are <strong>Tatar via Russia</strong>, <strong>Armenian via Armenia</strong>, <strong>Azerbaijani via Azerbaijan</strong>, <strong>Kyrgyz via Kyrgyzstan</strong>, <strong>Tajik via Cyrillic and Tajikistan</strong>, <strong>Belarusian via Belarus</strong>, <strong>Kazak via Kazakhstan</strong>.</p>
 <p>This leads me to speculate that this malware originated from somewhere eastern European, possibly Russia.</p>
 <p><figure class="post__image">
 	<img 
@@ -291,7 +291,7 @@
 </figure>
 </p>
 <h2 id="privilege-escalation-attempt">Privilege Escalation Attempt</h2>
-<p>The interesting feature of this sample is its ability to delete shadow copies using the program vssadmine.exe. Shadow copies are backups/snapshots of a windows system to roll back the clock on the system in the event of file corruption, deletion or in this case ransomware.</p>
+<p>The exciting feature of this sample is its ability to delete shadow copies using the program vssadmine.exe. Shadow copies are backups/snapshots of a windows system to roll back the clock on the system in the event of file corruption, deletion, or in this case, ransomware.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
@@ -304,7 +304,7 @@
  	/>
 </figure>
 </p>
-<p>Because of this ability LIKEAHORSE must then escalate its privileges. This is done through capturing tokens and then using the tool runas to launch LIKEAHORSE as administrator. If successful, the shadow copies will be deleted, making reverting to an earlier state after the attack more difficult if not impossible without proper offline backups.</p>
+<p>Because of this ability, LIKEAHORSE must then escalate its privileges. This is done through capturing tokens and then using the tool runas to launch LIKEAHORSE as administrator. If successful, the shadow copies will be deleted, making reverting to an earlier state after the attack more difficult, if not impossible, without proper offline backups.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
@@ -326,7 +326,7 @@
 </ul>
 <p>Also, the program tesql.exe is tried to be found but the reason for this is unclear.</p>
 <h2 id="encryption-keys-mechanisms--fail-safe-feature">Encryption Keys Mechanisms &amp; Fail Safe Feature</h2>
-<p>LIKEAHORSE utilizes a key encryption method that doesn’t take away from its strength but acts like a host-based indicator for future variants. First, there is a hard coded base64 encoded RSA encryption key found within the binary itself. This key is then used to encrypt the generated private keys created during run time. This private key is then encoded with base64 and then written to a PNG file called <strong><em>uninstall</em>.png</strong>. This by the way is a fake PNG file and not steganography. An unencrypted public key which is generated by the program at run time is also written to this file.</p>
+<p>LIKEAHORSE utilizes a key encryption method that doesn’t take away from its strength but acts like a host-based indicator for future variants. First, a hard-coded base64 encoded RSA encryption key is found within the binary. This key is then used to encrypt the generated private keys created during run time. This private key is then encoded with base64 and then written to a PNG file called <strong><em>uninstall</em>.png</strong>. This, by the way, is a fake PNG file and not steganography. An unencrypted public key that is generated by the program at run time is also written to this file.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
@@ -339,7 +339,7 @@
  	/>
 </figure>
 </p>
-<p>From analyzing this sample, I believe I can speculate that this is some sort of fail safe. The file <strong><em>uninstall</em>.png</strong> is written only once and written as a PNG file. Therefore, this file will probably be overlooked. If the ransomware ever encrypted the authors computer this the encryption keys can be recovered with the second pair of the hardcoded base64 encoded key. Now while this protects the authors this also created a large host-based indicator which can be used to possible track versions of the malware sample.</p>
+<p>From analyzing this sample, I believe I can speculate that this is some fail safe. The file <strong><em>uninstall</em>.png</strong> is written only once and registered as a PNG file. Therefore, this file will probably be overlooked. If the ransomware ever encrypted the author&rsquo;s computer, the encryption keys can be recovered with the second pair of the hardcoded base64 encoded key. While this protects the authors, this also created a large host-based indicator that can be used to track possible versions of the malware sample.</p>
 <p><strong>Hard Coded Key</strong></p>
 <ul>
 <li>MD5: 6c9954510b946650e2334662cd66deb9</li>
@@ -369,7 +369,7 @@
 <h2 id="network-capabilities">Network Capabilities</h2>
 <p>From my analysis there are no signs that LIKEAHORSE can move through a network or that it is actively looking for a vulnerability to do so. There is a total lack of network activity all together. It does have the ability to encrypt multiple logical drives though but that is the extent of its pervasiveness.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>LIKEAHORSE should be categorized as a low-grade ransomware. It’s lack of worm like abilities and less ensured privilege escalation tactics make it not as powerful as other ransomware. The analysis here was done on a Windows 7 virtual machine and even then, its privilege escalation technique did not work. Using good backups which are offloaded are still an effective mechanism for combatting this ransomware but there are several more.</p>
+<p>LIKEAHORSE should be categorized as low-grade ransomware. Its lack of worm-like abilities and less ensured privilege escalation tactics make it not as powerful as other ransomware. The analysis here was done on a Windows 7 virtual machine, and even then, its privilege escalation technique did not work. Using good backups which are offloaded is still an effective mechanism for combatting this ransomware, but there are several more.</p>
 <ul>
 <li>
 <p>Hardening configuration audits so that this sample cannot take down defenses is a must.</p>

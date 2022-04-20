@@ -8,19 +8,19 @@
 	<meta name="theme-color" content="#1da1f2">
 	<title> VBS Dropper Script for Nanocore RAT. Fileless Properties.  |  MalScope </title>
 	<meta name="description"
-		content="Introduction This piece of malware had some fileless malware properties but because it copied itself to disk it cannot be categorized as a fileless malware.">
+		content="Introduction This piece of malware had some fileless malware properties, but because it copied itself to disk, it cannot be categorized as fileless malware.">
 	<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/rat.png"/>
 
 <meta name="twitter:title" content=" VBS Dropper Script for Nanocore RAT. Fileless Properties. "/>
-<meta name="twitter:description" content="Introduction This piece of malware had some fileless malware properties but because it copied itself to disk it cannot be categorized as a fileless malware."/>
+<meta name="twitter:description" content="Introduction This piece of malware had some fileless malware properties, but because it copied itself to disk, it cannot be categorized as fileless malware."/>
 
 	<meta name="twitter:site" content="@ByridianBlack" />
 	<meta itemprop="name" content=" VBS Dropper Script for Nanocore RAT. Fileless Properties. ">
-<meta itemprop="description" content="Introduction This piece of malware had some fileless malware properties but because it copied itself to disk it cannot be categorized as a fileless malware.">
+<meta itemprop="description" content="Introduction This piece of malware had some fileless malware properties, but because it copied itself to disk, it cannot be categorized as fileless malware.">
 <meta itemprop="datePublished" content="2021-09-20T10:22:10&#43;07:00" />
 <meta itemprop="dateModified" content="2021-09-20T10:22:10&#43;07:00" />
-<meta itemprop="wordCount" content="950">
+<meta itemprop="wordCount" content="922">
 <meta itemprop="image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/rat.png">
 
 
@@ -95,10 +95,10 @@
 	"headline":" VBS Dropper Script for Nanocore RAT. Fileless Properties. ",
 	"datePublished":"2021-09-20T10",
 	"dateModified":"2021-09-20T10",
-	"description":"Introduction This piece of malware had some fileless malware properties but because it copied itself to disk it cannot be categorized as a fileless malware.",
+	"description":"Introduction This piece of malware had some fileless malware properties, but because it copied itself to disk, it cannot be categorized as fileless malware.",
 	"isFamilyFriendly": "true",
 	"image":  ["https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/nanocore/rat.png"] ,
-	"wordCount" : "950",
+	"wordCount" : "922",
 	"keywords": ["dropper","fileless","nanocore RAT"],
 	"genre": ["dropper","fileless","nanocore RAT"],
 	"accountablePerson": {
@@ -255,7 +255,7 @@
     <p>🔄 Updated: 
         <time itemprop="dateModified" datetime="2021-09-20T10:22:10&#43;07:00">September 20, 2021</time>
     </p>
-    <p>🕔 5 min read ∙ 950 words</p></div>
+    <p>🕔 5 min read ∙ 922 words</p></div>
 			
 <nav class="breadcrumb block" aria-label="breadcrumb">
 	<ol class="breadcrumb__list">
@@ -273,14 +273,7 @@
 				<article class="entry" id="article">
 					<div class="entry__content">
 					<h1 id="introduction">Introduction</h1>
-<p>This piece of malware had some fileless malware properties but because it copied itself to disk it
-cannot be categorized as a fileless malware. Rather, this code should be seen as a dropper which
-executes a .Net assembly code in memory and reruns itself every time on boot up. There was no
-evidence that I could see that shows that the .Net executable was every written to disk. Using a
-combination of both PowerShell and the windows .Net compiler, this piece of malware was able
-to compile previously encoded information all in memory. The signature was picked up.
-Personally, this is the first time I have ever witnessed this, and it shows how much powerful
-malware can become when it has only started off with a few lines to begin with.</p>
+<p>This piece of malware had some fileless malware properties, but because it copied itself to disk, it cannot be categorized as fileless malware. Rather, this code should be seen as a dropper that executes a .Net assembly code in memory and reruns itself every time on boot up. There was no evidence that I could see that shows that the .Net executable was ever written to disk. Using a combination of both PowerShell and the windows .Net compiler, this piece of malware could compile previously encoded information all in memory. The signature was picked up. Personally, this is the first time I have ever witnessed this, and it shows how much powerful malware can become when it has only started off with a few lines, to begin with.</p>
 <h1 id="static-analysis">Static Analysis</h1>
 <p><figure class="post__image">
 	<img 
@@ -294,7 +287,7 @@ malware can become when it has only started off with a few lines to begin with.<
  	/>
 </figure>
 </p>
-<p>Starting off as a VBS script the code was heavily obfuscated. It used a series of split and conversions to transform the data from unreadable to usable data. The code being used here was syntax used for PowerShell, so without Invoking of any unwanted commands I used PowerShell to decode the script. The code was split into multiple parts. The first part was also obfuscated as well with replace functions.</p>
+<p>Starting off as a VBS script, the code was heavily obfuscated. It used a series of splits and conversions to transform the data from unreadable to usable data. The code used here was syntax used for PowerShell, so without invoking any unwanted commands, I used PowerShell to decode the script. The code was split into multiple parts. The first part was also obfuscated as well with &ldquo;replace&rdquo; functions.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
@@ -320,8 +313,8 @@ malware can become when it has only started off with a few lines to begin with.<
  	/>
 </figure>
 </p>
-<p>Previously in Figure 1 the following URL was being used: <a href="https://transfer.sh/otxKHB/xdswed.txt">https://transfer.sh/otxKHB/xdswed.txt</a>.
-The site for now as of 9/15/2021 is still up and running. Because of this going to the site without the malware execution was the ideal option and the text file was nothing more than a VBS script that was executing PowerShell commands. Figure 3 shows that this segment acts as the dropper, downloading the data as a string and executing it with IEX.</p>
+<p>Previously in Figure 1, the following URL was being used: <a href="https://transfer.sh/otxKHB/xdswed.txt">https://transfer.sh/otxKHB/xdswed.txt</a>.
+The site, for now, as of 9/15/2021, is still up and running. Because of this going to the site without the malware execution was the ideal option and the text file was nothing more than a VBS script that was executing PowerShell commands. Figure 3 shows that this segment acts as the dropper, downloading the data as a string and running it with IEX.</p>
 <p>Within this file was another URL: <a href="https://transfer.sh/hLJAlo/vbyujg.txt">https://transfer.sh/hLJAlo/vbyujg.txt</a>.</p>
 <p>Analyzing the xdsweed.txt file the following was found:</p>
 <p><figure class="post__image">
@@ -336,7 +329,7 @@ The site for now as of 9/15/2021 is still up and running. Because of this going 
  	/>
 </figure>
 </p>
-<p>Initially obfuscated, this portion of the code shows multiple things. One, a directory called Run is being created in the C:\Users\Public directory. There the registry is being targeted allowing for the newly created directory to be run during startup. This is location where the malware is copying itself into to be run at every startup.</p>
+<p>Initially obfuscated, this portion of the code shows multiple things. One, a directory called Run is being created in the C:\Users\Public directory. The registry is being targeted, allowing for the newly created directory to execute during startup. This is the location where the malware is copying itself to be run at every startup.</p>
 <p>The second part of xdsweed.txt file is downloading the vbyujg.txt file from the URL. Vbyujg.txt is much more dangerous because of what it holds. The following is found:</p>
 <p><figure class="post__image">
 	<img 
@@ -389,21 +382,19 @@ The site for now as of 9/15/2021 is still up and running. Because of this going 
  	/>
 </figure>
 </p>
-<p>I believe that this this executable in in fact a .Net executable. A .Net executable is built on top of</p>
-<p>the PE format. From here I theorize the following.</p>
-<p>This executable is being written and then stored in the created directories previous found. There it is being started on every bootup.</p>
-<p>I am not yet sure what the executable does but I am certain that it is malicious. Most programs do that act in this way.</p>
-<p>From here not much can be learned from static analysis. I must run this executable and determine what is going on.</p>
-<p>These executables are being compiled with the aspnet_compiler.exe function as found in the same downloaded payload. They are then being injected directly into memory without being written to disk.</p>
-<p>From here dynamic analysis must be used to verify my findings. There shows no indications of the executable being written to disk but dynamic analysis must be used to confirm these findings.</p>
+<p>I believe that this executable is, in fact, a .Net executable. A .Net executable is built on top of the PE format. From here, I theorize the following. This executable is being written and then stored in the created directories previously found. There it is being started on every bootup.</p>
+<p>I am not sure what the executable does, but I am certain it is malicious.
+From here, not much can be learned from static analysis. I must run this executable and determine what is going on.</p>
+<p>These executables are compiled with the aspnet_compiler.exe function as found in the same downloaded payload. They are then injected directly into memory without being written to disk.</p>
+<p>From here, the dynamic analysis must be used to verify my findings. There are no indications of the executable being written to disk, but dynamic analysis must be used to confirm these findings.</p>
 <h1 id="dynamic-analysis">Dynamic Analysis</h1>
 <p>Running the application led to the following.</p>
-<p>A copy of the malware was written to the created directory as shown in Figure 4. An executable is also being loaded and run. Using the internet, it was determined that this is in fact the Nanocore RAT. A RAT that first showed up in 2013. Because of the nature of this dropper, getting hold of this sample which seems to only exist in memory is hard and more forensics research on the memory will be done. Further analysis will be done in the future.</p>
+<p>A copy of the malware was written to the created directory, as shown in Figure 4. An executable is also being loaded and run. It was determined that this is, in fact, the Nanocore RAT. A RAT that first showed up in 2013. Because of the nature of this dropper, getting hold of this sample which seems to only exist in memory, is hard, and more forensics research on the memory will be done. Further analysis will be done in the future.</p>
 <h1 id="conclusion">Conclusion</h1>
-<p>This malware appears to be a vector aimed at the distribution of the Nanocore RAT. Therefore, this can be categorized as both a dropper and spyware. One thing to note is this VBS script can easily be stored inside of a docx file. Also, what should also be noted is how dangerous that this dropper truly is.</p>
-<p>Based of the evidence that it has shown, it needed to create a new instance of itself from start up each time because the downloaded .Net executable that it is running only appears to exist in memory. No evidence shows the .Net executable being written to disk. This means that it is harder to detect through conventional means and tools.</p>
-<p>A possible method might be to take a snapshot of the RAM memory itself and then to look through that. Again, further analysis will be done.</p>
-<p>Lastly, what should be noted is how easily this code can be altered to download a different payload or even to download the same payload but with a different obfuscation algorithm. With, there could be very well different versions of this same malware doing the same thing. That along with the fact that they are using different trusted sources to do terrible things presents another issue. PowerShell, transfer.sh and aspnet_compiler are trusted entities. They cannot simply be blocked. Combating this piece of malware which has fileless malware properties presents a challenge.</p>
+<p>This malware appears to be a vector aimed at distributing the Nanocore RAT. Therefore, this can be categorized as both a dropper and spyware. One thing to note is this VBS script can easily be stored inside of a Docx file. Also, what should also be noted is how dangerous this dropper truly is.</p>
+<p>Based on the evidence that it has shown, it needed to create a new instance of itself from the start-up each time because the downloaded .Net executable that it is running only appears to exist in memory. No evidence shows the .Net executable being written to disk. This means that it is harder to detect through conventional means and tools.</p>
+<p>A possible method might be to take a snapshot of the RAM memory itself and then look through that. Again, further analysis will be done.</p>
+<p>Lastly, what should be noted is how easily this code can be altered to download a different payload or even to download the same payload but with a different obfuscation algorithm. There could be very different versions of this same malware doing the same thing. That, along with the fact that they are using different trusted sources to do terrible things, presents another issue. PowerShell, transfer.sh, and aspnet_compiler are trusted entities. They cannot simply be blocked. Combating this piece of malware which has fileless malware properties, presents a challenge.</p>
 <h3 id="droppervbs">Dropper.vbs</h3>
 <ul>
 <li>MD5: f0dba5477d792b0b5e16b79b0b603d7d</li>

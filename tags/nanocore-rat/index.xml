@@ -19,7 +19,7 @@
       <pubDate>Mon, 20 Sep 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/nanocore-rat-dropper-fileless/</guid>
-      <description>Introduction This piece of malware had some fileless malware properties but because it copied itself to disk it cannot be categorized as a fileless malware.</description>
+      <description>Introduction This piece of malware had some fileless malware properties, but because it copied itself to disk, it cannot be categorized as fileless malware.</description>
     </item>
     
   </channel>

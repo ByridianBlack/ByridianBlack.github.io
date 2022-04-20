@@ -19,7 +19,7 @@
       <pubDate>Mon, 18 Apr 2022 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/likeahorse-analysis-report/</guid>
-      <description>Introduction LIKEAHORSE is a ransomware which garnered news in the month of January but while it was looked at, I have found no real report on its features and abilities online.</description>
+      <description>Introduction LIKEAHORSE is ransomware that garnered news in January, but while it was looked at, I have found no actual report on its features and abilities online.</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <pubDate>Sat, 16 Apr 2022 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/mevlbkxshp-powershell-script-malware-analysis/</guid>
-      <description>Introduction Mevlbkxshp is a powershell script which will be categorized as a dropper.</description>
+      <description>Introduction Mevlbkxshp is a PowerShell script categorized as a dropper. This malware has many features, most of which are obfuscation techniques and some properties that make it semi-fileless.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <pubDate>Wed, 02 Jun 2021 10:22:10 +0700</pubDate>
       <author>pco2001w@gmail.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/poweliks-malware/</guid>
-      <description>Introduction As of recent I have been interested in fileless malware and the different approaches authors have when executing them.</description>
+      <description>Introduction I have recently been interested in fileless malware and the different approaches authors have when executing them.</description>
     </item>
     
   </channel>
