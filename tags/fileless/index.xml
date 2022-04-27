@@ -8,19 +8,10 @@
     <language>en</language>
     <managingEditor>pco2001w@gmail.com (ByridianBlack)</managingEditor>
     <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
-    <lastBuildDate>Mon, 18 Apr 2022 10:22:10 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 16 Apr 2022 10:22:10 +0700</lastBuildDate>
     
 	<atom:link href="https://malscope.com/tags/fileless/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>LIKEAHORSE Malware Report. Uncovering its Secrets</title>
-      <link>https://malscope.com/post/likeahorse-analysis-report/</link>
-      <pubDate>Mon, 18 Apr 2022 10:22:10 +0700</pubDate>
-      <author>pco2001w@gmail.com (ByridianBlack)</author>
-      <guid>https://malscope.com/post/likeahorse-analysis-report/</guid>
-      <description>Introduction LIKEAHORSE is ransomware that garnered news in January, but while it was looked at, I have found no actual report on its features and abilities online.</description>
-    </item>
     
     <item>
       <title>Mevlbkxshp Powershell Script Malware Analysis</title>

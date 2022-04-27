@@ -172,7 +172,7 @@
   
   
   <url>
-    <loc>https://malscope.com/tags/fileless/</loc>
+    <loc>https://malscope.com/tags/likeahorse/</loc>
     <lastmod>2022-04-18T10:22:10+07:00</lastmod>
     
     <changefreq>monthly</changefreq>
@@ -200,7 +200,7 @@
   
   
   <url>
-    <loc>https://malscope.com/tags/obfuscation/</loc>
+    <loc>https://malscope.com/tags/mawlare-analysis/</loc>
     <lastmod>2022-04-18T10:22:10+07:00</lastmod>
     
     <changefreq>monthly</changefreq>
@@ -214,8 +214,8 @@
   
   
   <url>
-    <loc>https://malscope.com/tags/powershell/</loc>
-    <lastmod>2022-04-18T10:22:10+07:00</lastmod>
+    <loc>https://malscope.com/tags/fileless/</loc>
+    <lastmod>2022-04-16T10:22:10+07:00</lastmod>
     
     <changefreq>monthly</changefreq>
     
@@ -235,6 +235,34 @@
     
     
     <priority>-1</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/obfuscation/</loc>
+    <lastmod>2022-04-16T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/powershell/</loc>
+    <lastmod>2022-04-16T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
     
     
   </url>
