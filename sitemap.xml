@@ -4,6 +4,118 @@
   
   
   <url>
+    <loc>https://malscope.com/tags/black-basta/</loc>
+    <lastmod>2022-04-27T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/post/blackbasta/</loc>
+    <lastmod>2022-04-27T10:22:10+07:00</lastmod>
+    
+    
+    
+    
+    <priority>-1</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/</loc>
+    <lastmod>2022-04-27T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/malware/</loc>
+    <lastmod>2022-04-27T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/malware-analysis/</loc>
+    <lastmod>2022-04-27T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/post/</loc>
+    <lastmod>2022-04-27T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/ransomware/</loc>
+    <lastmod>2022-04-27T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/</loc>
+    <lastmod>2022-04-27T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
     <loc>https://malscope.com/tags/crackme/</loc>
     <lastmod>2022-04-19T10:22:10+07:00</lastmod>
     
@@ -32,49 +144,7 @@
   
   
   <url>
-    <loc>https://malscope.com/</loc>
-    <lastmod>2022-04-19T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://malscope.com/post/</loc>
-    <lastmod>2022-04-19T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
     <loc>https://malscope.com/tags/reverse-engineering/</loc>
-    <lastmod>2022-04-19T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://malscope.com/tags/</loc>
     <lastmod>2022-04-19T10:22:10+07:00</lastmod>
     
     <changefreq>monthly</changefreq>
@@ -207,20 +277,6 @@
     
     
     <priority>-1</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://malscope.com/tags/malware/</loc>
-    <lastmod>2022-02-16T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
     
     
   </url>
