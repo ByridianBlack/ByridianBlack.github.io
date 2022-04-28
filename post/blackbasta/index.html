@@ -20,7 +20,7 @@
 <meta itemprop="description" content="Introduction Black Basta ransomware hit American Dental Association on the weekend of the week of 4/17, 2022.">
 <meta itemprop="datePublished" content="2022-04-27T10:22:10&#43;07:00" />
 <meta itemprop="dateModified" content="2022-04-27T10:22:10&#43;07:00" />
-<meta itemprop="wordCount" content="277">
+<meta itemprop="wordCount" content="274">
 <meta itemprop="image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/Black_Basta/image-002.jpg">
 
 
@@ -98,7 +98,7 @@
 	"description":"Introduction Black Basta ransomware hit American Dental Association on the weekend of the week of 4\/17, 2022.",
 	"isFamilyFriendly": "true",
 	"image":  ["https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/Black_Basta/image-002.jpg"] ,
-	"wordCount" : "277",
+	"wordCount" : "274",
 	"keywords": ["Malware Analysis","ransomware","Black Basta"],
 	"genre": ["Malware Analysis","ransomware","Black Basta"],
 	"accountablePerson": {
@@ -258,7 +258,7 @@
     <p>🔄 Updated: 
         <time itemprop="dateModified" datetime="2022-04-27T10:22:10&#43;07:00">April 27, 2022</time>
     </p>
-    <p>🕔 2 min read ∙ 277 words</p></div>
+    <p>🕔 2 min read ∙ 274 words</p></div>
 			
 <nav class="breadcrumb block" aria-label="breadcrumb">
 	<ol class="breadcrumb__list">
@@ -278,7 +278,7 @@
 					<h2 id="introduction">Introduction</h2>
 <p>Black Basta ransomware hit American Dental Association on the weekend of the week of 4/17, 2022. The ransomware group responsible for this act also stole sensitive data from W2 forms, NDAs, and accounting spreadsheets. This report will go over Black Basta’s capabilities and IOCs to prevent future attacks.</p>
 <h2 id="installation">Installation</h2>
-<p>Basta installs itself as a service using the registry, then hiding itself by labeling it as a fax machine service.</p>
+<p>Basta installs itself by hijacking the Fax service entry.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
@@ -347,6 +347,9 @@
 </ul>
 <h2 id="conclusion">Conclusion</h2>
 <p>For now, more analysis is needed to find more of its capabilities. From analysis, a command line argument “–forcepath” was found but it was not determined the intended behavior of this argument</p>
+<ul>
+<li>Updated on April 28th - Updated Registry Information</li>
+</ul>
 
 					
     <hr>
