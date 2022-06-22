@@ -8,10 +8,19 @@
     <language>en</language>
     <managingEditor>pco2001w@gmail.com (ByridianBlack)</managingEditor>
     <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
-    <lastBuildDate>Wed, 27 Apr 2022 10:22:10 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jun 2022 10:22:10 +0700</lastBuildDate>
     
 	<atom:link href="https://malscope.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HackTheBox Reminiscent Writeup</title>
+      <link>https://malscope.com/post/hackbox_reminiscent_writeup/</link>
+      <pubDate>Wed, 22 Jun 2022 10:22:10 +0700</pubDate>
+      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <guid>https://malscope.com/post/hackbox_reminiscent_writeup/</guid>
+      <description>Getting Started So for this summer, I decided to focus a little more on the offensive side of cybersecurity.</description>
+    </item>
     
     <item>
       <title>Black Basta Ransomware Analysis</title>
