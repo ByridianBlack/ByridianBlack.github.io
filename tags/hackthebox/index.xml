@@ -6,8 +6,8 @@
     <description>Recent content in hackthebox on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>pco2001w@gmail.com (ByridianBlack)</managingEditor>
-    <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
+    <managingEditor>byridianblack@malscope.com (ByridianBlack)</managingEditor>
+    <webMaster>byridianblack@malscope.com (ByridianBlack)</webMaster>
     <lastBuildDate>Wed, 22 Jun 2022 10:22:10 +0700</lastBuildDate>
     
 	<atom:link href="https://malscope.com/tags/hackthebox/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +17,7 @@
       <title>HackTheBox Reminiscent Writeup</title>
       <link>https://malscope.com/post/hackbox_reminiscent_writeup/</link>
       <pubDate>Wed, 22 Jun 2022 10:22:10 +0700</pubDate>
-      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/hackbox_reminiscent_writeup/</guid>
       <description>Getting Started So for this summer, I decided to focus a little more on the offensive side of cybersecurity.</description>
     </item>

@@ -6,8 +6,8 @@
     <description>Recent content in keylogger on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>pco2001w@gmail.com (ByridianBlack)</managingEditor>
-    <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
+    <managingEditor>byridianblack@malscope.com (ByridianBlack)</managingEditor>
+    <webMaster>byridianblack@malscope.com (ByridianBlack)</webMaster>
     <lastBuildDate>Thu, 25 Nov 2021 10:22:10 +0700</lastBuildDate>
     
 	<atom:link href="https://malscope.com/tags/keylogger/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +17,7 @@
       <title>DiffuseGravity</title>
       <link>https://malscope.com/post/diffusegravity/</link>
       <pubDate>Thu, 25 Nov 2021 10:22:10 +0700</pubDate>
-      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/diffusegravity/</guid>
       <description>Introduction VB6 compiler can be treated as a packer because of its translation from what is known as P-code into assembly code.</description>
     </item>
@@ -26,7 +26,7 @@
       <title>Win32/InfoStealer Dexter Malware</title>
       <link>https://malscope.com/post/info-stealer-ma/</link>
       <pubDate>Sat, 22 May 2021 10:22:10 +0700</pubDate>
-      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/info-stealer-ma/</guid>
       <description>Introduction Win32/InfoStealer.Dexter is part of a family of malware to steal information such as credit card numbers, passwords, or various techniques.</description>
     </item>

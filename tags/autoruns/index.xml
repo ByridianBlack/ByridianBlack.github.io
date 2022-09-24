@@ -6,8 +6,8 @@
     <description>Recent content in autoruns on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>pco2001w@gmail.com (ByridianBlack)</managingEditor>
-    <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
+    <managingEditor>byridianblack@malscope.com (ByridianBlack)</managingEditor>
+    <webMaster>byridianblack@malscope.com (ByridianBlack)</webMaster>
     <lastBuildDate>Wed, 20 Oct 2021 10:22:10 +0700</lastBuildDate>
     
 	<atom:link href="https://malscope.com/tags/autoruns/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +17,7 @@
       <title>Invicea Tunnel Malware Analysis</title>
       <link>https://malscope.com/post/invicea-tunnel-analysis/</link>
       <pubDate>Wed, 20 Oct 2021 10:22:10 +0700</pubDate>
-      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/invicea-tunnel-analysis/</guid>
       <description>Initial Analysis &amp;amp; Outside Research Not much is known about this malware or at least not much research has been done on it.</description>
     </item>

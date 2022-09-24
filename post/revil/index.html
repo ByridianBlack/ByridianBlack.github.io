@@ -6,26 +6,26 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#1da1f2">
-	<title>LIKEAHORSE Malware Report. Uncovering its Secrets |  MalScope </title>
+	<title>REvil Malware Analysis |  MalScope </title>
 	<meta name="description"
-		content="Introduction LIKEAHORSE is ransomware that garnered news in January, but while it was looked at, I have found no actual report on its features and abilities online.">
+		content="Summary This report is on the Ransomware as a Service REvil, detailing their techniques, any changes to previous samples they used and their obfuscation techniques.">
 	<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/horse.jpg"/>
+<meta name="twitter:image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/REvil/image_000.jpeg"/>
 
-<meta name="twitter:title" content="LIKEAHORSE Malware Report. Uncovering its Secrets"/>
-<meta name="twitter:description" content="Introduction LIKEAHORSE is ransomware that garnered news in January, but while it was looked at, I have found no actual report on its features and abilities online."/>
+<meta name="twitter:title" content="REvil Malware Analysis"/>
+<meta name="twitter:description" content="Summary This report is on the Ransomware as a Service REvil, detailing their techniques, any changes to previous samples they used and their obfuscation techniques."/>
 
 	<meta name="twitter:site" content="@ByridianBlack" />
-	<meta itemprop="name" content="LIKEAHORSE Malware Report. Uncovering its Secrets">
-<meta itemprop="description" content="Introduction LIKEAHORSE is ransomware that garnered news in January, but while it was looked at, I have found no actual report on its features and abilities online.">
-<meta itemprop="datePublished" content="2022-04-18T10:22:10&#43;07:00" />
-<meta itemprop="dateModified" content="2022-04-18T10:22:10&#43;07:00" />
-<meta itemprop="wordCount" content="730">
-<meta itemprop="image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/horse.jpg">
+	<meta itemprop="name" content="REvil Malware Analysis">
+<meta itemprop="description" content="Summary This report is on the Ransomware as a Service REvil, detailing their techniques, any changes to previous samples they used and their obfuscation techniques.">
+<meta itemprop="datePublished" content="2022-08-24T10:22:10&#43;07:00" />
+<meta itemprop="dateModified" content="2022-08-24T10:22:10&#43;07:00" />
+<meta itemprop="wordCount" content="571">
+<meta itemprop="image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/REvil/image_000.jpeg">
 
 
 
-<meta itemprop="keywords" content="ransomware,likeahorse,mawlare analysis," />
+<meta itemprop="keywords" content="poweliks,malware,obfuscation," />
 	<link rel="stylesheet" href="/css/bundle.min.css">
 	<link rel="apple-touch-icon" sizes="180x180" href="https://malscope.com/icons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="https://malscope.com/icons/favicon-32x32.png">
@@ -90,17 +90,17 @@
 	"@type":"BlogPosting",
 	"mainEntityOfPage":{
 		"@type":"WebPage",
-		"@id":"https:\/\/malscope.comhttps:\/\/malscope.com\/post\/likeahorse-analysis-report\/"
+		"@id":"https:\/\/malscope.comhttps:\/\/malscope.com\/post\/revil\/"
 	},
-	"headline":"LIKEAHORSE Malware Report. Uncovering its Secrets",
-	"datePublished":"2022-04-18T10",
-	"dateModified":"2022-04-18T10",
-	"description":"Introduction LIKEAHORSE is ransomware that garnered news in January, but while it was looked at, I have found no actual report on its features and abilities online.",
+	"headline":"REvil Malware Analysis",
+	"datePublished":"2022-08-24T10",
+	"dateModified":"2022-08-24T10",
+	"description":"Summary This report is on the Ransomware as a Service REvil, detailing their techniques, any changes to previous samples they used and their obfuscation techniques.",
 	"isFamilyFriendly": "true",
-	"image":  ["https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/horse.jpg"] ,
-	"wordCount" : "730",
-	"keywords": ["ransomware","likeahorse","mawlare analysis"],
-	"genre": ["ransomware","likeahorse","mawlare analysis"],
+	"image":  ["https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/REvil/image_000.jpeg"] ,
+	"wordCount" : "571",
+	"keywords": ["poweliks","malware","obfuscation"],
+	"genre": ["poweliks","malware","obfuscation"],
 	"accountablePerson": {
 		"@type": "Person",
 		"name": "ByridianBlack",
@@ -205,7 +205,7 @@
 
 
 <figure class="hero__image hero__image--overlay">
-	<img class="hero__image-img lazyload" data-src="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/horse.jpg" src="/img/placeholder.svg" alt="LIKEAHORSE Malware Report. Uncovering its Secrets"/>
+	<img class="hero__image-img lazyload" data-src="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/REvil/image_000.jpeg" src="/img/placeholder.svg" alt="REvil Malware Analysis"/>
 </figure>
 
 
@@ -213,7 +213,7 @@
 	<div class="wrapper">
 		<h1 itemprop="name"  style="color: white;" >
 	
-		LIKEAHORSE Malware Report. Uncovering its Secrets
+		REvil Malware Analysis
 	
 		</h1>
 	
@@ -231,14 +231,17 @@
 <aside class="tableOfContentContainer" id="tableOfContentContainer">
 	<nav id="TableOfContents">
   <ul>
-    <li><a href="#malware-targets">Malware Targets</a></li>
-    <li><a href="#privilege-escalation-attempt">Privilege Escalation Attempt</a></li>
-    <li><a href="#defense-take-down">Defense Take Down</a></li>
-    <li><a href="#encryption-keys-mechanisms--fail-safe-feature">Encryption Keys Mechanisms &amp; Fail Safe Feature</a></li>
-    <li><a href="#ransomware-note">RANSOMWARE NOTE</a></li>
-    <li><a href="#network-capabilities">Network Capabilities</a></li>
+    <li><a href="#summary">Summary</a></li>
+    <li><a href="#sample-hash">Sample Hash</a></li>
+    <li><a href="#tactics-and-techniques-used-for-obfuscation">Tactics and Techniques used for obfuscation</a>
+      <ul>
+        <li><a href="#junk-code">Junk Code</a></li>
+        <li><a href="#rc4-decryption">RC4 Decryption</a></li>
+        <li><a href="#api-hashing">API Hashing</a></li>
+        <li><a href="#crc32-hashing-of-configuration-file">CRC32 Hashing of Configuration File</a></li>
+      </ul>
+    </li>
     <li><a href="#conclusion">Conclusion</a></li>
-    <li><a href="#likeahorse-signatures">LIKEAHORSE SIGNATURES</a></li>
   </ul>
 </nav>
 </aside>
@@ -251,12 +254,12 @@
 		<div class="wrapper post__entry">
 			<div class='property outline'>
     <p>📅️ Published: 
-        <time itemprop="datePublished" datetime="2022-04-18T10:22:10&#43;07:00">April 18, 2022</time>
+        <time itemprop="datePublished" datetime="2022-08-24T10:22:10&#43;07:00">August 24, 2022</time>
     </p>
     <p>🔄 Updated: 
-        <time itemprop="dateModified" datetime="2022-04-18T10:22:10&#43;07:00">April 18, 2022</time>
+        <time itemprop="dateModified" datetime="2022-08-24T10:22:10&#43;07:00">August 24, 2022</time>
     </p>
-    <p>🕔 4 min read ∙ 730 words</p></div>
+    <p>🕔 3 min read ∙ 571 words</p></div>
 			
 <nav class="breadcrumb block" aria-label="breadcrumb">
 	<ol class="breadcrumb__list">
@@ -267,128 +270,98 @@
 		<li class="breadcrumb__item">
 			<a class="breadcrumbs__link" href="/post/">Post 📝</a> &nbsp;
 		</li>
-		<li class="breadcrumbs__item breadcrumb__item--active" aria-current="page">LIKEAHORSE Malware Report. Uncovering its Secrets</li>
+		<li class="breadcrumbs__item breadcrumb__item--active" aria-current="page">REvil Malware Analysis</li>
 	</ol>
 </nav>
 			<div class="single block">
 				<article class="entry" id="article">
 					<div class="entry__content">
-					<h1 id="introduction">Introduction</h1>
-<p>LIKEAHORSE is ransomware that garnered news in January, but while it was looked at, I have found no actual report on its features and abilities online. Therefore, this blog post will be going over all its capabilities for future reference if any variation of it comes out in the future. Unlike most mainstream malware, LIKEAHORSE is small but just as robust in making the necessary attack assigned and should still be taken seriously.</p>
-<h2 id="malware-targets">Malware Targets</h2>
-<p>The first thing checked is the default language ID of the computer. If the following language ID numbers are found, the process is immediately terminated. The countries &amp; languages not affected by this malware are <strong>Tatar via Russia</strong>, <strong>Armenian via Armenia</strong>, <strong>Azerbaijani via Azerbaijan</strong>, <strong>Kyrgyz via Kyrgyzstan</strong>, <strong>Tajik via Cyrillic and Tajikistan</strong>, <strong>Belarusian via Belarus</strong>, <strong>Kazak via Kazakhstan</strong>.</p>
-<p>This leads me to speculate that this malware originated from somewhere eastern European, possibly Russia.</p>
+					<h2 id="summary">Summary</h2>
+<p>This report is on the Ransomware as a Service REvil, detailing their techniques, any changes to previous samples they used and their obfuscation techniques. While writing this analysis, I used a reiteration of my personal analysis as well as additional documentation of changes I saw in the code base. While there are slight differences between the two, this is worth  looking into as the code flow changes during this analysis.</p>
+<h2 id="sample-hash">Sample Hash</h2>
+<p><strong>Sha256</strong>: <strong>0c10cf1b1640c9c845080f460ee69392bfaac981a4407b607e8e30d2ddf903e8</strong></p>
+<h2 id="tactics-and-techniques-used-for-obfuscation">Tactics and Techniques used for obfuscation</h2>
+<h3 id="junk-code">Junk Code</h3>
+<p>While this is a minor detail, the changes to add junk code to established algorithms did slow down my analysis since adding junk code increases the difficulty of pattern matching to more dated samples.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
 	class="lazyload post__image" 
     data-sizes="auto"
     src="/img/placeholder.svg"
-    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/image-000.png'
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/REvil/image_001.png'
     alt='image'
      title="image"
  	/>
 </figure>
 </p>
-<h2 id="privilege-escalation-attempt">Privilege Escalation Attempt</h2>
-<p>The exciting feature of this sample is its ability to delete shadow copies using the program vssadmine.exe. Shadow copies are backups/snapshots of a windows system to roll back the clock on the system in the event of file corruption, deletion, or in this case, ransomware.</p>
+<p>Looking at this sample we see swaps which try to change the way that the RC4 decryption algorithm appears. Again, these changes are minor, but the technique causes the code to seem more complex. These kinds of operations could be put in place to make the code analysis more difficult.</p>
+<h3 id="rc4-decryption">RC4 Decryption</h3>
+<p>All string decryption is done via the RC4 algorithm. Connecting back to the previous technique of adding excess code, a majority of the data decrypted is junk data. This makes it harder to read and an analyst can overlook this fact. The usage of junk code and data is apparent to slow down the analysis and prevent automation.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
 	class="lazyload post__image" 
     data-sizes="auto"
     src="/img/placeholder.svg"
-    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/image-001.png'
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/REvil/image_002.png'
     alt='image'
      title="image"
  	/>
 </figure>
 </p>
-<p>Because of this ability, LIKEAHORSE must then escalate its privileges. This is done through capturing tokens and then using the tool runas to launch LIKEAHORSE as administrator. If successful, the shadow copies will be deleted, making reverting to an earlier state after the attack more difficult, if not impossible, without proper offline backups.</p>
+<p>An example of this is the screencap above, part of this is garbage text. I believe that creating a modified RC4 script,which the malware has already done, is the best way to bypass this tactic.</p>
+<h3 id="api-hashing">API Hashing</h3>
+<p>API Hashing utilizes 195 API which are obfuscated hashes. It dynamically allocates these hashes by using the _LIST_Entry and the InMemoryOrderModuleList structure. First the DWORD which is assigned a number is transformed or deobfuscated.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
 	class="lazyload post__image" 
     data-sizes="auto"
     src="/img/placeholder.svg"
-    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/image-002.png'
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/REvil/image_003.png'
     alt='image'
      title="image"
  	/>
 </figure>
 </p>
-<h2 id="defense-take-down">Defense Take Down</h2>
-<p>Even if privileges are not escalated LIKEAHORSE can still issue the following commands to take down the defenses of the target.</p>
-<ul>
-<li>bcdedit /set {current} bootstatuspolicy ignoreallfailures</li>
-<li>bcdedit /set {current} recoveryenabled no</li>
-<li>netsh advfirewall set allprofiles state off</li>
-</ul>
-<p>Also, the program tesql.exe is tried to be found but the reason for this is unclear.</p>
-<h2 id="encryption-keys-mechanisms--fail-safe-feature">Encryption Keys Mechanisms &amp; Fail Safe Feature</h2>
-<p>LIKEAHORSE utilizes a key encryption method that doesn’t take away from its strength but acts like a host-based indicator for future variants. First, a hard-coded base64 encoded RSA encryption key is found within the binary. This key is then used to encrypt the generated private keys created during run time. This private key is then encoded with base64 and then written to a PNG file called <strong><em>uninstall</em>.png</strong>. This, by the way, is a fake PNG file and not steganography. An unencrypted public key that is generated by the program at run time is also written to this file.</p>
+<p>This image shows the lower DWORD part of the result. The XOR value I have seen in this is changed between the samples. This is done to stop quick automation.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
 	class="lazyload post__image" 
     data-sizes="auto"
     src="/img/placeholder.svg"
-    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/image-003.png'
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/REvil/image_004.png'
     alt='image'
      title="image"
  	/>
 </figure>
 </p>
-<p>From analyzing this sample, I believe I can speculate that this is some fail safe. The file <strong><em>uninstall</em>.png</strong> is written only once and registered as a PNG file. Therefore, this file will probably be overlooked. If the ransomware ever encrypted the author&rsquo;s computer, the encryption keys can be recovered with the second pair of the hardcoded base64 encoded key. While this protects the authors, this also created a large host-based indicator that can be used to track possible versions of the malware sample.</p>
-<p><strong>Hard Coded Key</strong></p>
-<ul>
-<li>MD5: 6c9954510b946650e2334662cd66deb9</li>
-<li>SHA-1: 187f1ec4893e51a7a0d8387770b74a35863a4254</li>
-<li>SHA-256: 64383d0284c129587615505c8967d5a924b999a8c6a44a326988b4df461f8c50</li>
-</ul>
-<p>This doesn’t help the victim as they will never have access to the 2nd key pair.</p>
-<h2 id="ransomware-note">RANSOMWARE NOTE</h2>
-<p>LIKEAHORSE leaves a ransomware note detailing how the payment method should go down. It also contains a unique ID.</p>
+<p>This result is then tested against the hash generated later in the code or against a specific function name.</p>
+<p>The hashing algorithm is simple but it should be noted that the structure of the code I saw in my analysis is different from the analysis I have seen previously. To see more of these differences I  would direct you to OALabs who did an analysis video here, (<a href="https://www.youtube.com/watch?v=hM2Zvsak3GM)">https://www.youtube.com/watch?v=hM2Zvsak3GM)</a>.</p>
 <p><figure class="post__image">
 	<img 
 	itemprop="image"
 	class="lazyload post__image" 
     data-sizes="auto"
     src="/img/placeholder.svg"
-    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/LIKEAHORSE/image-004.png'
+    data-src='https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/REvil/image_005.png'
     alt='image'
      title="image"
  	/>
 </figure>
 </p>
-<ul>
-<li>MD5: a096f2bd21b84276abd6b39833db1714</li>
-<li>SHA-1: 13044247b7c10bd46edf267b745f29b057265fb8</li>
-<li>SHA-256: 0b2c5164788763f143600520cb9e89e797cbe3e634db182100bdb51312c2c21c</li>
-</ul>
-<h2 id="network-capabilities">Network Capabilities</h2>
-<p>From my analysis there are no signs that LIKEAHORSE can move through a network or that it is actively looking for a vulnerability to do so. There is a total lack of network activity all together. It does have the ability to encrypt multiple logical drives though but that is the extent of its pervasiveness.</p>
+<p>In this image, you can see there is a separate subroutine in the code. The subroutine algorithm is the same as previous iterations, but the difference should be noted for pattern matching to other samples. The API hashing deobfuscation script can be found on my
+here: <a href="https://github.com/ByridianBlack">https://github.com/ByridianBlack</a> .</p>
+<h3 id="crc32-hashing-of-configuration-file">CRC32 Hashing of Configuration File</h3>
+<p>The program takes a CRC32 hash of the configuration file before using, this has been documented before so I will not be detailing it in this post..  If you want to read more about this, I would suggest this post: <a href="https://threatpost.com/revil-ransomware-code-rivals/167167/">https://threatpost.com/revil-ransomware-code-rivals/167167/</a>.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>LIKEAHORSE should be categorized as low-grade ransomware. Its lack of worm-like abilities and less ensured privilege escalation tactics make it not as powerful as other ransomware. The analysis here was done on a Windows 7 virtual machine, and even then, its privilege escalation technique did not work. Using good backups which are offloaded is still an effective mechanism for combatting this ransomware, but there are several more.</p>
-<ul>
-<li>
-<p>Hardening configuration audits so that this sample cannot take down defenses is a must.</p>
-</li>
-<li>
-<p>Updating IOCs found in this report should also happen. The encryption keys hard coded provide a great host-based IOC that can be used to quickly determine this sample and track version changes.</p>
-</li>
-</ul>
-<h2 id="likeahorse-signatures">LIKEAHORSE SIGNATURES</h2>
-<ul>
-<li>MD5: bb23e3de5bcd95e4c5b47ba1276f4a39</li>
-<li>SHA-1: e8066a96876c287b837869412e6be99847f4588c</li>
-<li>SHA-256: 6d2efda037fe23b1fe3a5bae44f5b9f7ddfdf621c5df6cb6999d801bbdf79b0f</li>
-</ul>
-<p><a href="https://github.com/ByridianBlack/Malware_Reversing/tree/main/2.%20LIKEAHORSE-DATA" target="_blank" rel="noopener">Encryption key and IDA IDC</a></p>
+<p>The main purpose of this analysis was to look at the changes I saw in REvil from previous samples but also to practice looking at API hashing as well as having my own documentation of the sample to look back on. The main purpose of REvil is to create ransomware so I will not go into detail about that part of the sample, but the nature of the configuration files and how it went about obfuscating itself was quite interesting.</p>
 
 					
     <hr>
-    <p> <a href="post/LIKEAHORSE%20ANALYSIS%20report.md">Edit on Github</a>.</p>
+    <p> <a href="post/REvil.md">Edit on Github</a>.</p>
     <hr>
 
 					
@@ -400,20 +373,20 @@
 					<footer class="entry__footer">
 						
 <div class="post__tag">
-			<a href="/tags/ransomware/"># ransomware</a>
-			<a href="/tags/likeahorse/"># likeahorse</a>
-			<a href="/tags/mawlare-analysis/"># mawlare analysis</a>
+			<a href="/tags/poweliks/"># poweliks</a>
+			<a href="/tags/malware/"># malware</a>
+			<a href="/tags/obfuscation/"># obfuscation</a>
 </div>
 						
 <div class="post__share">
-	<a class="js-share btn" title=" Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmalscope.com%2fpost%2flikeahorse-analysis-report%2f" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' Facebook', 'width=800,height=600,toolbar=0,status=0'); return false">
+	<a class="js-share btn" title=" Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmalscope.com%2fpost%2frevil%2f" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' Facebook', 'width=800,height=600,toolbar=0,status=0'); return false">
 		<svg class="share__icon" aria-label="Facebook" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M330 512V322h64l9-74h-73v-47c0-22 6-36 37-36h39V99c-7-1-30-3-57-3-57 0-95 34-95 98v54h-64v74h64v190z"/></svg>
 	</a>
-	<a class="js-share btn" title=" Twitter" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fmalscope.com%2fpost%2flikeahorse-analysis-report%2f&amp;text=LIKEAHORSE%20Malware%20Report.%20Uncovering%20its%20Secrets" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' Twitter', 'width=800,height=450,resizable=yes,toolbar=0,status=0'); return false">
+	<a class="js-share btn" title=" Twitter" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fmalscope.com%2fpost%2frevil%2f&amp;text=REvil%20Malware%20Analysis" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' Twitter', 'width=800,height=450,resizable=yes,toolbar=0,status=0'); return false">
 		<svg class="share__icon" aria-label="Twitter" viewBox="0 0 24.999 20.316"><path d="M25 2.405a10.253 10.253 0 0 1-2.947.808A5.144 5.144 0 0 0 24.308.376 10.27 10.27 0 0 1 21.05 1.62a5.134 5.134 0 0 0-8.74 4.68A14.56 14.56 0 0 1 1.74.94a5.134 5.134 0 0 0 1.587 6.846 5.108 5.108 0 0 1-2.323-.642v.064a5.132 5.132 0 0 0 4.114 5.03 5.142 5.142 0 0 1-2.316.088 5.134 5.134 0 0 0 4.79 3.562 10.29 10.29 0 0 1-6.37 2.2A10.44 10.44 0 0 1 0 18.012a14.586 14.586 0 0 0 22.454-12.29q0-.333-.015-.662A10.423 10.423 0 0 0 25 2.405z" /></svg>
 
 	</a>
-	<a class="js-share btn" title=" LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fmalscope.com%2fpost%2flikeahorse-analysis-report%2f&title=LIKEAHORSE%20Malware%20Report.%20Uncovering%20its%20Secrets" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' LinkedIn', 'width=640,height=480,toolbar=0,status=0'); return false">
+	<a class="js-share btn" title=" LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fmalscope.com%2fpost%2frevil%2f&title=REvil%20Malware%20Analysis" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, ' LinkedIn', 'width=640,height=480,toolbar=0,status=0'); return false">
 		<svg class="share__icon" aria-label="LinkedIn" role="img" viewBox="0 0 34.48 32"><path d="M29.632,0H2.362A2.336,2.336,0,0,0,0,2.306V29.691A2.337,2.337,0,0,0,2.362,32h27.27A2.342,2.342,0,0,0,32,29.691V2.306A2.34,2.34,0,0,0,29.632,0ZM9.491,27.268H4.744V12H9.491ZM7.119,9.909a2.752,2.752,0,1,1,2.75-2.753A2.753,2.753,0,0,1,7.119,9.909ZM27.268,27.268H22.525V19.842c0-1.772-.033-4.05-2.466-4.05-2.47,0-2.848,1.929-2.848,3.921v7.555H12.468V12h4.553v2.086h.063a4.986,4.986,0,0,1,4.491-2.467c4.806,0,5.694,3.163,5.694,7.275Z"/></svg>
 
 	</a>
@@ -439,6 +412,34 @@
 	
 
 
+
+<div class="post__related related">
+	<div class="wrapper">
+		<h2 class="h5 related__title">You should also read:</h2>
+		
+		<article class="related__item">
+			<div class="feed__meta">
+				
+	<time itemprop="datePublished" class="feed__date" datetime="2021-06-02T10:22:10&#43;07:00">June 02, 2021</time>
+			</div>
+			<h3><a class="invert" href="/post/poweliks-malware/">Poweliks Malware Analysis</a></h3></article>
+		
+		<article class="related__item">
+			<div class="feed__meta">
+				
+	<time itemprop="datePublished" class="feed__date" datetime="2022-04-16T10:22:10&#43;07:00">April 16, 2022</time>
+			</div>
+			<h3><a class="invert" href="/post/mevlbkxshp-powershell-script-malware-analysis/">Mevlbkxshp Powershell Script Malware Analysis</a></h3></article>
+		
+		<article class="related__item">
+			<div class="feed__meta">
+				
+	<time itemprop="datePublished" class="feed__date" datetime="2022-02-16T10:22:10&#43;07:00">February 16, 2022</time>
+			</div>
+			<h3><a class="invert" href="/post/darkside/">Darkside Malware</a></h3></article>
+		
+	</div>
+</div>
 
 	
 <section class="post__comments">

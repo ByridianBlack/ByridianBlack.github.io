@@ -6,8 +6,8 @@
     <description>Recent content in fileless on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>pco2001w@gmail.com (ByridianBlack)</managingEditor>
-    <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
+    <managingEditor>byridianblack@malscope.com (ByridianBlack)</managingEditor>
+    <webMaster>byridianblack@malscope.com (ByridianBlack)</webMaster>
     <lastBuildDate>Sat, 16 Apr 2022 10:22:10 +0700</lastBuildDate>
     
 	<atom:link href="https://malscope.com/tags/fileless/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +17,7 @@
       <title>Mevlbkxshp Powershell Script Malware Analysis</title>
       <link>https://malscope.com/post/mevlbkxshp-powershell-script-malware-analysis/</link>
       <pubDate>Sat, 16 Apr 2022 10:22:10 +0700</pubDate>
-      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/mevlbkxshp-powershell-script-malware-analysis/</guid>
       <description>Introduction Mevlbkxshp is a PowerShell script categorized as a dropper. This malware has many features, most of which are obfuscation techniques and some properties that make it semi-fileless.</description>
     </item>
@@ -26,7 +26,7 @@
       <title> VBS Dropper Script for Nanocore RAT. Fileless Properties. </title>
       <link>https://malscope.com/post/nanocore-rat-dropper-fileless/</link>
       <pubDate>Mon, 20 Sep 2021 10:22:10 +0700</pubDate>
-      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/nanocore-rat-dropper-fileless/</guid>
       <description>Introduction This piece of malware had some fileless malware properties, but because it copied itself to disk, it cannot be categorized as fileless malware.</description>
     </item>

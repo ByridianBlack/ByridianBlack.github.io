@@ -6,18 +6,27 @@
     <description>Recent content in poweliks on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>pco2001w@gmail.com (ByridianBlack)</managingEditor>
-    <webMaster>pco2001w@gmail.com (ByridianBlack)</webMaster>
-    <lastBuildDate>Wed, 02 Jun 2021 10:22:10 +0700</lastBuildDate>
+    <managingEditor>byridianblack@malscope.com (ByridianBlack)</managingEditor>
+    <webMaster>byridianblack@malscope.com (ByridianBlack)</webMaster>
+    <lastBuildDate>Wed, 24 Aug 2022 10:22:10 +0700</lastBuildDate>
     
 	<atom:link href="https://malscope.com/tags/poweliks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>REvil Malware Analysis</title>
+      <link>https://malscope.com/post/revil/</link>
+      <pubDate>Wed, 24 Aug 2022 10:22:10 +0700</pubDate>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
+      <guid>https://malscope.com/post/revil/</guid>
+      <description>Summary This report is on the Ransomware as a Service REvil, detailing their techniques, any changes to previous samples they used and their obfuscation techniques.</description>
+    </item>
+    
+    <item>
       <title>Poweliks Malware Analysis</title>
       <link>https://malscope.com/post/poweliks-malware/</link>
       <pubDate>Wed, 02 Jun 2021 10:22:10 +0700</pubDate>
-      <author>pco2001w@gmail.com (ByridianBlack)</author>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/poweliks-malware/</guid>
       <description>Introduction I have recently been interested in fileless malware and the different approaches authors have when executing them.</description>
     </item>

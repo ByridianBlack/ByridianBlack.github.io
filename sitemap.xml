@@ -4,6 +4,104 @@
   
   
   <url>
+    <loc>https://malscope.com/</loc>
+    <lastmod>2022-08-24T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/malware/</loc>
+    <lastmod>2022-08-24T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/obfuscation/</loc>
+    <lastmod>2022-08-24T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/post/</loc>
+    <lastmod>2022-08-24T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/poweliks/</loc>
+    <lastmod>2022-08-24T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/post/revil/</loc>
+    <lastmod>2022-08-24T10:22:10+07:00</lastmod>
+    
+    
+    
+    
+    <priority>-1</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/</loc>
+    <lastmod>2022-08-24T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
     <loc>https://malscope.com/tags/forensics/</loc>
     <lastmod>2022-06-22T10:22:10+07:00</lastmod>
     
@@ -60,49 +158,7 @@
   
   
   <url>
-    <loc>https://malscope.com/</loc>
-    <lastmod>2022-06-22T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://malscope.com/post/</loc>
-    <lastmod>2022-06-22T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
     <loc>https://malscope.com/tags/reminiscent/</loc>
-    <lastmod>2022-06-22T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://malscope.com/tags/</loc>
     <lastmod>2022-06-22T10:22:10+07:00</lastmod>
     
     <changefreq>monthly</changefreq>
@@ -151,20 +207,6 @@
     
     
     <priority>-1</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://malscope.com/tags/malware/</loc>
-    <lastmod>2022-04-27T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
     
     
   </url>
@@ -319,20 +361,6 @@
     
     
     <priority>-1</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://malscope.com/tags/obfuscation/</loc>
-    <lastmod>2022-04-16T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
     
     
   </url>
@@ -650,20 +678,6 @@
   <url>
     <loc>https://malscope.com/tags/nanocore-rat/</loc>
     <lastmod>2021-09-20T10:22:10+07:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    
-     
-    <priority>0.3</priority>
-    
-    
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://malscope.com/tags/poweliks/</loc>
-    <lastmod>2021-06-02T10:22:10+07:00</lastmod>
     
     <changefreq>monthly</changefreq>
     
