@@ -20,7 +20,7 @@
 <meta itemprop="description" content="In this report, I will demonstrate the methods to unpack a SmokeLoader executable manually.">
 <meta itemprop="datePublished" content="2022-09-27T10:22:10&#43;07:00" />
 <meta itemprop="dateModified" content="2022-09-27T10:22:10&#43;07:00" />
-<meta itemprop="wordCount" content="555">
+<meta itemprop="wordCount" content="561">
 <meta itemprop="image" content="https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/Smokeloader/image_001.jpg">
 
 
@@ -98,7 +98,7 @@
 	"description":"In this report, I will demonstrate the methods to unpack a SmokeLoader executable manually.",
 	"isFamilyFriendly": "true",
 	"image":  ["https://raw.githubusercontent.com/ByridianBlack/BlogImages/main/Smokeloader/image_001.jpg"] ,
-	"wordCount" : "555",
+	"wordCount" : "561",
 	"keywords": ["SmokeLoader","shellcode","API HASHING"],
 	"genre": ["SmokeLoader","shellcode","API HASHING"],
 	"accountablePerson": {
@@ -247,7 +247,11 @@
       </ul>
     </li>
     <li><a href="#stage-3-analysis">Stage 3 Analysis</a></li>
-    <li><a href="#conclusion">Conclusion:</a></li>
+    <li><a href="#conclusion">Conclusion:</a>
+      <ul>
+        <li><a href="#edited-by-elizabeth-lam">Edited by Elizabeth Lam</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 </aside>
@@ -265,7 +269,7 @@
     <p>🔄 Updated: 
         <time itemprop="dateModified" datetime="2022-09-27T10:22:10&#43;07:00">September 27, 2022</time>
     </p>
-    <p>🕔 3 min read ∙ 555 words</p></div>
+    <p>🕔 3 min read ∙ 561 words</p></div>
 			
 <nav class="breadcrumb block" aria-label="breadcrumb">
 	<ol class="breadcrumb__list">
@@ -354,6 +358,11 @@
 <p>The usage of junk code and API Hashing, along with using the LDR structure to load modules, are techniques I see more often in my analysis. While I took the time to analyze this sample statically, the unpacking process for this sample is straightforward, and putting breakpoints on the VirtualAlloc function to see what is written to their buffers is sufficient. This note will aid in my
 future analysis for other variants of this sample.</p>
 <p>What has been learned from this analysis are better techniques for recognizing API hashing and methods of analyzing shellcode effectively and promptly.</p>
+<h3 id="edited-by-elizabeth-lam">Edited by Elizabeth Lam</h3>
+<ul>
+<li><a href="https://www.linkedin.com/in/elizabeth-lam-8a0685220/">Linkedin</a></li>
+<li><a href="https://instagram.com/liz.lamm?igshid=ZDg1NjBiNjg=">Instagram</a></li>
+</ul>
 
 					
     <hr>
