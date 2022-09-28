@@ -8,10 +8,19 @@
     <language>en</language>
     <managingEditor>byridianblack@malscope.com (ByridianBlack)</managingEditor>
     <webMaster>byridianblack@malscope.com (ByridianBlack)</webMaster>
-    <lastBuildDate>Wed, 27 Apr 2022 10:22:10 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 24 Aug 2022 10:22:10 +0700</lastBuildDate>
     
 	<atom:link href="https://malscope.com/tags/ransomware/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>REvil Malware Analysis</title>
+      <link>https://malscope.com/post/revil/</link>
+      <pubDate>Wed, 24 Aug 2022 10:22:10 +0700</pubDate>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
+      <guid>https://malscope.com/post/revil/</guid>
+      <description>Summary This report is on the Ransomware as a Service REvil, detailing their techniques, any changes to previous samples they used and their obfuscation techniques.</description>
+    </item>
     
     <item>
       <title>Black Basta Ransomware Analysis</title>
