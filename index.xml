@@ -8,10 +8,19 @@
     <language>en</language>
     <managingEditor>byridianblack@malscope.com (ByridianBlack)</managingEditor>
     <webMaster>byridianblack@malscope.com (ByridianBlack)</webMaster>
-    <lastBuildDate>Tue, 27 Sep 2022 10:22:10 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 05 Oct 2022 10:22:10 +0700</lastBuildDate>
     
 	<atom:link href="https://malscope.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CryptBot Malware Report</title>
+      <link>https://malscope.com/post/cryptbot-malware-report/</link>
+      <pubDate>Wed, 05 Oct 2022 10:22:10 +0700</pubDate>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
+      <guid>https://malscope.com/post/cryptbot-malware-report/</guid>
+      <description>Background CryptBot is an Info-Stealer malware that has been making its rounds this year, 2022, distributed via cracked software and sketchy websites.</description>
+    </item>
     
     <item>
       <title>SmokeLoader Unpacking Series</title>
@@ -176,15 +185,6 @@ Analysis Initially this piece of malware was UPX packed as shown in the followin
       <author>byridianblack@malscope.com (ByridianBlack)</author>
       <guid>https://malscope.com/contact/</guid>
       <description>Contact me:</description>
-    </item>
-    
-    <item>
-      <title>CryptBot Malware Report</title>
-      <link>https://malscope.com/post/cryptbot-malware-report/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>byridianblack@malscope.com (ByridianBlack)</author>
-      <guid>https://malscope.com/post/cryptbot-malware-report/</guid>
-      <description>Background CryptBot is an Info-Stealer malware that has been making its rounds this year, 2022, distributed via cracked software and sketchy websites.</description>
     </item>
     
     <item>
