@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>API HASHING on MalScope</title>
-    <link>https://malscope.com/tags/api-hashing/</link>
-    <description>Recent content in API HASHING on MalScope</description>
+    <title>Unpacking on MalScope</title>
+    <link>https://malscope.com/tags/unpacking/</link>
+    <description>Recent content in Unpacking on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>byridianblack@malscope.com (ByridianBlack)</managingEditor>
     <webMaster>byridianblack@malscope.com (ByridianBlack)</webMaster>
     <lastBuildDate>Tue, 27 Sep 2022 10:22:10 +0700</lastBuildDate>
     
-	<atom:link href="https://malscope.com/tags/api-hashing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://malscope.com/tags/unpacking/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <author>byridianblack@malscope.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/cryptbot-malware-report/</guid>
       <description>Background CryptBot is an Info-Stealer malware that has been making its rounds this year, 2022, distributed via cracked software and sketchy websites.</description>
-    </item>
-    
-    <item>
-      <title>SmokeLoader Unpacking Series</title>
-      <link>https://malscope.com/post/smokeloader-unpacking/</link>
-      <pubDate>Tue, 27 Sep 2022 10:22:10 +0700</pubDate>
-      <author>byridianblack@malscope.com (ByridianBlack)</author>
-      <guid>https://malscope.com/post/smokeloader-unpacking/</guid>
-      <description>In this report, I will demonstrate the methods to unpack a SmokeLoader executable manually.</description>
     </item>
     
   </channel>

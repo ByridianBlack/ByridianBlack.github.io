@@ -18,6 +18,34 @@
   
   
   <url>
+    <loc>https://malscope.com/tags/cryptbot/</loc>
+    <lastmod>2022-09-27T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/post/cryptbot-malware-report/</loc>
+    <lastmod>2022-09-27T10:22:10+07:00</lastmod>
+    
+    
+    
+    
+    <priority>-1</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
     <loc>https://malscope.com/</loc>
     <lastmod>2022-09-27T10:22:10+07:00</lastmod>
     
@@ -89,6 +117,20 @@
   
   <url>
     <loc>https://malscope.com/tags/</loc>
+    <lastmod>2022-09-27T10:22:10+07:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    
+     
+    <priority>0.3</priority>
+    
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://malscope.com/tags/unpacking/</loc>
     <lastmod>2022-09-27T10:22:10+07:00</lastmod>
     
     <changefreq>monthly</changefreq>
