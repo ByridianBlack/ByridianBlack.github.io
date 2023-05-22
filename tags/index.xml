@@ -8,10 +8,46 @@
     <language>en</language>
     <managingEditor>byridianblack@malscope.com (ByridianBlack)</managingEditor>
     <webMaster>byridianblack@malscope.com (ByridianBlack)</webMaster>
-    <lastBuildDate>Wed, 05 Oct 2022 10:22:10 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 22 May 2023 10:22:10 +0700</lastBuildDate>
     
 	<atom:link href="https://malscope.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>crackme</title>
+      <link>https://malscope.com/tags/crackme/</link>
+      <pubDate>Mon, 22 May 2023 10:22:10 +0700</pubDate>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
+      <guid>https://malscope.com/tags/crackme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crackmes</title>
+      <link>https://malscope.com/tags/crackmes/</link>
+      <pubDate>Mon, 22 May 2023 10:22:10 +0700</pubDate>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
+      <guid>https://malscope.com/tags/crackmes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reverse Engineering</title>
+      <link>https://malscope.com/tags/reverse-engineering/</link>
+      <pubDate>Mon, 22 May 2023 10:22:10 +0700</pubDate>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
+      <guid>https://malscope.com/tags/reverse-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writeup</title>
+      <link>https://malscope.com/tags/writeup/</link>
+      <pubDate>Mon, 22 May 2023 10:22:10 +0700</pubDate>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
+      <guid>https://malscope.com/tags/writeup/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>API HASHING</title>
@@ -154,33 +190,6 @@
       <pubDate>Wed, 27 Apr 2022 10:22:10 +0700</pubDate>
       <author>byridianblack@malscope.com (ByridianBlack)</author>
       <guid>https://malscope.com/tags/malware-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>crackme</title>
-      <link>https://malscope.com/tags/crackme/</link>
-      <pubDate>Tue, 19 Apr 2022 10:22:10 +0700</pubDate>
-      <author>byridianblack@malscope.com (ByridianBlack)</author>
-      <guid>https://malscope.com/tags/crackme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reverse engineering</title>
-      <link>https://malscope.com/tags/reverse-engineering/</link>
-      <pubDate>Tue, 19 Apr 2022 10:22:10 +0700</pubDate>
-      <author>byridianblack@malscope.com (ByridianBlack)</author>
-      <guid>https://malscope.com/tags/reverse-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>writeup</title>
-      <link>https://malscope.com/tags/writeup/</link>
-      <pubDate>Tue, 19 Apr 2022 10:22:10 +0700</pubDate>
-      <author>byridianblack@malscope.com (ByridianBlack)</author>
-      <guid>https://malscope.com/tags/writeup/</guid>
       <description></description>
     </item>
     

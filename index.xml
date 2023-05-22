@@ -8,10 +8,19 @@
     <language>en</language>
     <managingEditor>byridianblack@malscope.com (ByridianBlack)</managingEditor>
     <webMaster>byridianblack@malscope.com (ByridianBlack)</webMaster>
-    <lastBuildDate>Wed, 05 Oct 2022 10:22:10 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 22 May 2023 10:22:10 +0700</lastBuildDate>
     
 	<atom:link href="https://malscope.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>0verney Crackme Write up</title>
+      <link>https://malscope.com/post/0verney_crackme/</link>
+      <pubDate>Mon, 22 May 2023 10:22:10 +0700</pubDate>
+      <author>byridianblack@malscope.com (ByridianBlack)</author>
+      <guid>https://malscope.com/post/0verney_crackme/</guid>
+      <description>Looking past the entry The start of this executable is as show</description>
+    </item>
     
     <item>
       <title>CryptBot Malware Report</title>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>writeup on MalScope</title>
-    <link>https://malscope.com/tags/writeup/</link>
-    <description>Recent content in writeup on MalScope</description>
+    <title>Crackmes on MalScope</title>
+    <link>https://malscope.com/tags/crackmes/</link>
+    <description>Recent content in Crackmes on MalScope</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>byridianblack@malscope.com (ByridianBlack)</managingEditor>
     <webMaster>byridianblack@malscope.com (ByridianBlack)</webMaster>
     <lastBuildDate>Mon, 22 May 2023 10:22:10 +0700</lastBuildDate>
     
-	<atom:link href="https://malscope.com/tags/writeup/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://malscope.com/tags/crackmes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,17 +20,6 @@
       <author>byridianblack@malscope.com (ByridianBlack)</author>
       <guid>https://malscope.com/post/0verney_crackme/</guid>
       <description>Looking past the entry The start of this executable is as show</description>
-    </item>
-    
-    <item>
-      <title>Danofred&#39;s Simple CrackMe WriteUp</title>
-      <link>https://malscope.com/post/danofreds-simple-crackme-writeup/</link>
-      <pubDate>Tue, 19 Apr 2022 10:22:10 +0700</pubDate>
-      <author>byridianblack@malscope.com (ByridianBlack)</author>
-      <guid>https://malscope.com/post/danofreds-simple-crackme-writeup/</guid>
-      <description>Author: ByridianBlack
-Challenge Won: April 18th, 2022
-Author of Challenge: Danofred</description>
     </item>
     
   </channel>
